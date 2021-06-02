@@ -71,9 +71,7 @@ void ROCKSAMPLE::Init_7_8()
 
     HalfEfficiencyDistance = 20;
     StartPos = COORD(0, 3);
-    unsigned seed = (unsigned) time(0);
-    RandomSeed(seed);
-    cout << "Used seed " << seed << endl;
+    RandomSeed((unsigned) time(0));
     Grid.SetAllValues(-1);
     for (int i = 0; i < NumRocks; ++i)
     {
