@@ -168,8 +168,8 @@ void EXPERIMENT::DiscountedReturn()
 
     for (int i = ExpParams.MinDoubles; i <= ExpParams.MaxDoubles; i++)
     {
-        SearchParams.NumSimulations = 1 << i;
-        SearchParams.NumStartStates = 1 << i;
+        SearchParams.NumSimulations = (1 << i) / 6;
+        SearchParams.NumStartStates = (1 << i) / 6;
         if (i + ExpParams.TransformDoubles >= 0)
             SearchParams.NumTransforms = 1 << (i + ExpParams.TransformDoubles);
         else
@@ -206,8 +206,8 @@ void EXPERIMENT::AverageReward()
 
     for (int i = ExpParams.MinDoubles; i <= ExpParams.MaxDoubles; i++)
     {
-        SearchParams.NumSimulations = 1 << i;
-        SearchParams.NumStartStates = 1 << i;
+        SearchParams.NumSimulations = (1 << i) / 6;
+        SearchParams.NumStartStates = (1 << i) / 6;
         if (i + ExpParams.TransformDoubles >= 0)
             SearchParams.NumTransforms = 1 << (i + ExpParams.TransformDoubles);
         else
