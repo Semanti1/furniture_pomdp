@@ -1,6 +1,7 @@
 #include "experiment.h"
 #include "boost/timer.hpp"
-
+#include <ctime>
+#include <chrono>
 using namespace std;
 
 EXPERIMENT::PARAMS::PARAMS()
@@ -39,8 +40,9 @@ EXPERIMENT::EXPERIMENT(const SIMULATOR& real,
 
 void EXPERIMENT::Run()
 {
-    boost::timer timer;
-    boost::timer timer2;
+    // boost::timer timer;
+    // boost::timer timer2;
+    std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
     MCTS mcts(Simulator, SearchParams);
 
@@ -59,9 +61,12 @@ void EXPERIMENT::Run()
     {
         int observation;
         double reward;
-        timer2.restart();
+        // timer2.restart();
+        std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
         int action = mcts.SelectAction();
-        cout << "Time in this step: " << timer2.elapsed()<<endl;
+        std::chrono::high_resolution_clock::time_point t2b = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2b - t2);
+        cout << "Time in this step: " << time_span.count() << endl;
         terminal = Real.Step(*state, action, observation, reward);
 
         Results.Reward.Add(reward);
@@ -86,7 +91,9 @@ void EXPERIMENT::Run()
         if (outOfParticles)
             break;
 
-        if (timer.elapsed() > ExpParams.TimeOut)
+        std::chrono::high_resolution_clock::time_point t1b = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> time_span2 = std::chrono::duration_cast<std::chrono::duration<double>>(t1b - t1);
+        if (time_span2.count() > ExpParams.TimeOut)
         {
             cout << "Timed out after " << t << " steps in "
                 << Results.Time.GetTotal() << "seconds" << endl;
@@ -132,7 +139,9 @@ void EXPERIMENT::Run()
         }
     }
 
-    Results.Time.Add(timer.elapsed());
+    std::chrono::high_resolution_clock::time_point t1c = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> time_span3 = std::chrono::duration_cast<std::chrono::duration<double>>(t1c - t1);
+    Results.Time.Add(time_span3.count());
     Results.UndiscountedReturn.Add(undiscountedReturn);
     Results.DiscountedReturn.Add(discountedReturn);
     cout << "Discounted return = " << discountedReturn
@@ -168,8 +177,8 @@ void EXPERIMENT::DiscountedReturn()
 
     for (int i = ExpParams.MinDoubles; i <= ExpParams.MaxDoubles; i++)
     {
-        SearchParams.NumSimulations = (1 << i) / 6;
-        SearchParams.NumStartStates = (1 << i) / 6;
+        SearchParams.NumSimulations = (1 << i); // / 6;
+        SearchParams.NumStartStates = (1 << i); // / 6;
         if (i + ExpParams.TransformDoubles >= 0)
             SearchParams.NumTransforms = 1 << (i + ExpParams.TransformDoubles);
         else
@@ -206,8 +215,8 @@ void EXPERIMENT::AverageReward()
 
     for (int i = ExpParams.MinDoubles; i <= ExpParams.MaxDoubles; i++)
     {
-        SearchParams.NumSimulations = (1 << i) / 6;
-        SearchParams.NumStartStates = (1 << i) / 6;
+        SearchParams.NumSimulations = (1 << i); // / 6;
+        SearchParams.NumStartStates = (1 << i); // / 6;
         if (i + ExpParams.TransformDoubles >= 0)
             SearchParams.NumTransforms = 1 << (i + ExpParams.TransformDoubles);
         else
