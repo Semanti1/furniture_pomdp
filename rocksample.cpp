@@ -30,7 +30,7 @@ void ROCKSAMPLE::InitGeneral()
     StartPos = COORD(0, Size / 2);
 
     // Use hardcoded seed to generate the board
-    RandomSeed(248294142);
+    RandomSeed(0);
     Grid.SetAllValues(-1);
     for (int i = 0; i < NumRocks; ++i)
     {
