@@ -1,0 +1,3751 @@
+Initialising fast UCB table... done
+Main runs
+Starting run 1 with 512 simulations... 
+Time in this step: 0.0315874
+Time in this step: 0.0263341
+Time in this step: 0.0273684
+Time in this step: 0.0279854
+Time in this step: 0.0285602
+Time in this step: 0.0266031
+Time in this step: 0.0257587
+Time in this step: 0.0262224
+Time in this step: 0.0260753
+Time in this step: 0.0253806
+Time in this step: 0.024509
+Time in this step: 0.0244128
+Time in this step: 0.0239209
+Time in this step: 0.0220312
+Time in this step: 0.022362
+Time in this step: 0.0226792
+Time in this step: 0.0196879
+Time in this step: 0.0152161
+Time in this step: 0.006464
+Terminated
+Discounted return = 10.2746, average = 10.2746
+Undiscounted return = 20, average = 20
+Starting run 2 with 512 simulations... 
+Time in this step: 0.0268243
+Time in this step: 0.0259467
+Time in this step: 0.0261735
+Time in this step: 0.0260687
+Time in this step: 0.0267168
+Time in this step: 0.0263211
+Time in this step: 0.0254158
+Time in this step: 0.0248717
+Time in this step: 0.0243954
+Time in this step: 0.0242423
+Time in this step: 0.0230568
+Time in this step: 0.0229958
+Time in this step: 0.0230323
+Time in this step: 0.0227961
+Time in this step: 0.0231102
+Time in this step: 0.0213896
+Time in this step: 0.0203115
+Time in this step: 0.0209467
+Time in this step: 0.0203283
+Time in this step: 0.0196423
+Time in this step: 0.0181627
+Time in this step: 0.0149253
+Time in this step: 0.0146847
+Time in this step: 0.00992224
+Time in this step: 0.00421953
+Terminated
+Discounted return = 1.13596, average = 5.7053
+Undiscounted return = 10, average = 15
+Starting run 3 with 512 simulations... 
+Time in this step: 0.026766
+Time in this step: 0.0253719
+Time in this step: 0.0261844
+Time in this step: 0.0261595
+Time in this step: 0.0265617
+Time in this step: 0.0260921
+Time in this step: 0.0254742
+Time in this step: 0.025684
+Time in this step: 0.0257082
+Time in this step: 0.0257484
+Time in this step: 0.0254545
+Time in this step: 0.0255711
+Time in this step: 0.025387
+Time in this step: 0.0254695
+Time in this step: 0.0259353
+Time in this step: 0.0259137
+Time in this step: 0.0261274
+Time in this step: 0.0257484
+Time in this step: 0.0258829
+Time in this step: 0.0258075
+Time in this step: 0.0257254
+Time in this step: 0.0252243
+Time in this step: 0.0245124
+Time in this step: 0.0239518
+Time in this step: 0.0232912
+Time in this step: 0.0231523
+Time in this step: 0.0222068
+Time in this step: 0.0214316
+Time in this step: 0.0198157
+Time in this step: 0.0188199
+Time in this step: 0.0183378
+Time in this step: 0.0155376
+Time in this step: 0.0109083
+Time in this step: 0.0046763
+Terminated
+Discounted return = 10.0891, average = 7.16655
+Undiscounted return = 40, average = 23.3333
+Starting run 4 with 512 simulations... 
+Time in this step: 0.0265037
+Time in this step: 0.0273559
+Time in this step: 0.0263756
+Time in this step: 0.0259845
+Time in this step: 0.025585
+Time in this step: 0.0253496
+Time in this step: 0.0245961
+Time in this step: 0.0266235
+Time in this step: 0.024217
+Time in this step: 0.0242489
+Time in this step: 0.0243321
+Time in this step: 0.0243368
+Time in this step: 0.0243787
+Time in this step: 0.0242224
+Time in this step: 0.024005
+Time in this step: 0.0243041
+Time in this step: 0.0243337
+Time in this step: 0.0235078
+Time in this step: 0.0231293
+Time in this step: 0.0231684
+Time in this step: 0.0235982
+Time in this step: 0.0216879
+Time in this step: 0.0216001
+Time in this step: 0.0185607
+Time in this step: 0.0149406
+Time in this step: 0.00632355
+Terminated
+Discounted return = 10.1248, average = 7.90612
+Undiscounted return = 20, average = 22.5
+Starting run 5 with 512 simulations... 
+Time in this step: 0.0265
+Time in this step: 0.0258037
+Time in this step: 0.0258009
+Time in this step: 0.024909
+Time in this step: 0.0240114
+Time in this step: 0.0248569
+Time in this step: 0.0269839
+Time in this step: 0.0310772
+Time in this step: 0.0234295
+Time in this step: 0.0232767
+Time in this step: 0.0224856
+Time in this step: 0.0262042
+Time in this step: 0.0208352
+Time in this step: 0.0200532
+Time in this step: 0.0173772
+Time in this step: 0.0152965
+Time in this step: 0.0137837
+Time in this step: 0.0100293
+Time in this step: 0.00500294
+Terminated
+Discounted return = 17.7626, average = 9.87741
+Undiscounted return = 30, average = 24
+Starting run 6 with 512 simulations... 
+Time in this step: 0.0265072
+Time in this step: 0.0260084
+Time in this step: 0.0259766
+Time in this step: 0.0258296
+Time in this step: 0.0254881
+Time in this step: 0.0250587
+Time in this step: 0.0322061
+Time in this step: 0.024096
+Time in this step: 0.0242415
+Time in this step: 0.0255262
+Time in this step: 0.0228975
+Time in this step: 0.0209332
+Time in this step: 0.0177164
+Time in this step: 0.0139812
+Time in this step: 0.0127013
+Time in this step: 0.00580772
+Terminated
+Discounted return = 17.1173, average = 11.084
+Undiscounted return = 30, average = 25
+Starting run 7 with 512 simulations... 
+Time in this step: 0.0263444
+Time in this step: 0.0253463
+Time in this step: 0.0255878
+Time in this step: 0.0259237
+Time in this step: 0.025709
+Time in this step: 0.0256503
+Time in this step: 0.024857
+Time in this step: 0.0241567
+Time in this step: 0.0241591
+Time in this step: 0.023874
+Time in this step: 0.0240162
+Time in this step: 0.0237866
+Time in this step: 0.0271136
+Time in this step: 0.0238168
+Time in this step: 0.0242751
+Time in this step: 0.0249865
+Time in this step: 0.0239313
+Time in this step: 0.0228113
+Time in this step: 0.0221646
+Time in this step: 0.0209065
+Time in this step: 0.0197348
+Time in this step: 0.0188715
+Time in this step: 0.0160797
+Time in this step: 0.0118336
+Time in this step: 0.00476872
+Terminated
+Discounted return = 9.51598, average = 10.86
+Undiscounted return = 20, average = 24.2857
+Starting run 8 with 512 simulations... 
+Time in this step: 0.0260107
+Time in this step: 0.0253694
+Time in this step: 0.025409
+Time in this step: 0.0252394
+Time in this step: 0.0256387
+Time in this step: 0.028307
+Time in this step: 0.0257456
+Time in this step: 0.0260936
+Time in this step: 0.0331342
+Time in this step: 0.0257451
+Time in this step: 0.0255253
+Time in this step: 0.0261945
+Time in this step: 0.0256548
+Time in this step: 0.0256428
+Time in this step: 0.0255821
+Time in this step: 0.0256641
+Time in this step: 0.0252487
+Time in this step: 0.0254447
+Time in this step: 0.0253004
+Time in this step: 0.0254994
+Time in this step: 0.025288
+Time in this step: 0.0252523
+Time in this step: 0.0257532
+Time in this step: 0.0366822
+Time in this step: 0.0257453
+Time in this step: 0.0241425
+Time in this step: 0.0242632
+Time in this step: 0.0233203
+Time in this step: 0.0215966
+Time in this step: 0.0185114
+Time in this step: 0.0176632
+Time in this step: 0.0138743
+Time in this step: 0.00705047
+Terminated
+Discounted return = 1.56127, average = 9.69769
+Undiscounted return = 10, average = 22.5
+Starting run 9 with 512 simulations... 
+Time in this step: 0.029005
+Time in this step: 0.0256458
+Time in this step: 0.0256323
+Time in this step: 0.025702
+Time in this step: 0.0260084
+Time in this step: 0.0261151
+Time in this step: 0.0262142
+Time in this step: 0.0267847
+Time in this step: 0.0274165
+Time in this step: 0.0281352
+Time in this step: 0.0274071
+Time in this step: 0.0267746
+Time in this step: 0.0252887
+Time in this step: 0.0242862
+Time in this step: 0.0240795
+Time in this step: 0.0255932
+Time in this step: 0.0249636
+Time in this step: 0.0240821
+Time in this step: 0.0228402
+Time in this step: 0.0231289
+Time in this step: 0.0210456
+Time in this step: 0.0211295
+Time in this step: 0.0197197
+Time in this step: 0.0150801
+Time in this step: 0.00690392
+Terminated
+Discounted return = 8.90726, average = 9.60987
+Undiscounted return = 20, average = 22.2222
+Starting run 10 with 512 simulations... 
+Time in this step: 0.0294162
+Time in this step: 0.0276271
+Time in this step: 0.0276029
+Time in this step: 0.028925
+Time in this step: 0.026477
+Time in this step: 0.024715
+Time in this step: 0.0245675
+Time in this step: 0.0243406
+Time in this step: 0.0240648
+Time in this step: 0.0242098
+Time in this step: 0.0238659
+Time in this step: 0.0237622
+Time in this step: 0.0243355
+Time in this step: 0.0321667
+Time in this step: 0.0210526
+Time in this step: 0.0212844
+Time in this step: 0.0210387
+Time in this step: 0.0199674
+Time in this step: 0.0195477
+Time in this step: 0.0200208
+Time in this step: 0.0176656
+Time in this step: 0.0132396
+Time in this step: 0.00577817
+Terminated
+Discounted return = 15.7197, average = 10.2208
+Undiscounted return = 30, average = 23
+Starting run 11 with 512 simulations... 
+Time in this step: 0.0263362
+Time in this step: 0.0272108
+Time in this step: 0.0273323
+Time in this step: 0.0279647
+Time in this step: 0.0271546
+Time in this step: 0.0285583
+Time in this step: 0.0276632
+Time in this step: 0.0261262
+Time in this step: 0.0259958
+Time in this step: 0.0262088
+Time in this step: 0.0249209
+Time in this step: 0.0287434
+Time in this step: 0.0261595
+Time in this step: 0.0251889
+Time in this step: 0.0240199
+Time in this step: 0.0245582
+Time in this step: 0.0260436
+Time in this step: 0.0252095
+Time in this step: 0.0259902
+Time in this step: 0.0269325
+Time in this step: 0.0262933
+Time in this step: 0.0262686
+Time in this step: 0.0256421
+Time in this step: 0.0232845
+Time in this step: 0.0233019
+Time in this step: 0.0227879
+Time in this step: 0.0239186
+Time in this step: 0.0217479
+Time in this step: 0.018957
+Time in this step: 0.0154385
+Time in this step: 0.00651401
+Terminated
+Discounted return = 8.13376, average = 10.0311
+Undiscounted return = 20, average = 22.7273
+Starting run 12 with 512 simulations... 
+Time in this step: 0.0316478
+Time in this step: 0.0253463
+Time in this step: 0.0259747
+Time in this step: 0.0271817
+Time in this step: 0.0283401
+Time in this step: 0.0281266
+Time in this step: 0.0285387
+Time in this step: 0.02753
+Time in this step: 0.0285466
+Time in this step: 0.0285123
+Time in this step: 0.0291206
+Time in this step: 0.0277845
+Time in this step: 0.0269239
+Time in this step: 0.0257772
+Time in this step: 0.0257239
+Time in this step: 0.0250018
+Time in this step: 0.0252826
+Time in this step: 0.0267974
+Time in this step: 0.0263351
+Time in this step: 0.0243779
+Time in this step: 0.0231104
+Time in this step: 0.0231306
+Time in this step: 0.0218843
+Time in this step: 0.0216401
+Time in this step: 0.0218274
+Time in this step: 0.0216308
+Time in this step: 0.0214786
+Time in this step: 0.0195731
+Time in this step: 0.0184244
+Time in this step: 0.015597
+Time in this step: 0.0157779
+Time in this step: 0.0128594
+Time in this step: 0.0106161
+Time in this step: 0.00448588
+Terminated
+Discounted return = 13.5619, average = 10.3253
+Undiscounted return = 50, average = 25
+Starting run 13 with 512 simulations... 
+Time in this step: 0.0276097
+Time in this step: 0.0273217
+Time in this step: 0.0275231
+Time in this step: 0.0267331
+Time in this step: 0.0262269
+Time in this step: 0.0252949
+Time in this step: 0.0241958
+Time in this step: 0.0236064
+Time in this step: 0.0234121
+Time in this step: 0.0233269
+Time in this step: 0.0213145
+Time in this step: 0.0188742
+Time in this step: 0.0185153
+Time in this step: 0.0179527
+Time in this step: 0.0119235
+Time in this step: 0.00596703
+Terminated
+Discounted return = 17.0199, average = 10.8403
+Undiscounted return = 30, average = 25.3846
+Starting run 14 with 512 simulations... 
+Time in this step: 0.0270302
+Time in this step: 0.0259736
+Time in this step: 0.0259729
+Time in this step: 0.0261984
+Time in this step: 0.0262634
+Time in this step: 0.0267659
+Time in this step: 0.0258443
+Time in this step: 0.0263671
+Time in this step: 0.0263796
+Time in this step: 0.0263637
+Time in this step: 0.0265489
+Time in this step: 0.026541
+Time in this step: 0.0243967
+Time in this step: 0.0240786
+Time in this step: 0.0223926
+Time in this step: 0.0209192
+Time in this step: 0.0208778
+Time in this step: 0.0214761
+Time in this step: 0.022413
+Time in this step: 0.0220762
+Time in this step: 0.0204745
+Time in this step: 0.0213194
+Time in this step: 0.0217206
+Time in this step: 0.0199576
+Time in this step: 0.0242109
+Time in this step: 0.0188416
+Time in this step: 0.0160375
+Time in this step: 0.010718
+Time in this step: 0.00645746
+Time in this step: 0.0044433
+Terminated
+Discounted return = 19.2716, average = 11.4425
+Undiscounted return = 50, average = 27.1429
+Starting run 15 with 512 simulations... 
+Time in this step: 0.0272374
+Time in this step: 0.0258597
+Time in this step: 0.0256265
+Time in this step: 0.026346
+Time in this step: 0.0256869
+Time in this step: 0.0257327
+Time in this step: 0.0244196
+Time in this step: 0.0239985
+Time in this step: 0.0241435
+Time in this step: 0.024084
+Time in this step: 0.0237438
+Time in this step: 0.0238687
+Time in this step: 0.02356
+Time in this step: 0.0230407
+Time in this step: 0.0226318
+Time in this step: 0.0234858
+Time in this step: 0.0238735
+Time in this step: 0.023806
+Time in this step: 0.0232454
+Time in this step: 0.023575
+Time in this step: 0.0237342
+Time in this step: 0.0236279
+Time in this step: 0.023908
+Time in this step: 0.0246731
+Time in this step: 0.0247244
+Time in this step: 0.0244805
+Time in this step: 0.0242224
+Time in this step: 0.02515
+Time in this step: 0.0244655
+Time in this step: 0.0251099
+Time in this step: 0.0248135
+Time in this step: 0.024764
+Time in this step: 0.024679
+Time in this step: 0.024749
+Time in this step: 0.0243216
+Time in this step: 0.0249877
+Time in this step: 0.0237956
+Time in this step: 0.0237963
+Time in this step: 0.0238124
+Time in this step: 0.0232357
+Time in this step: 0.0224726
+Time in this step: 0.020701
+Time in this step: 0.0186509
+Time in this step: 0.0166833
+Time in this step: 0.0131037
+Time in this step: 0.005491
+Terminated
+Discounted return = 9.50514, average = 11.3134
+Undiscounted return = 30, average = 27.3333
+Starting run 16 with 512 simulations... 
+Time in this step: 0.0266689
+Time in this step: 0.0259268
+Time in this step: 0.0258938
+Time in this step: 0.0255288
+Time in this step: 0.0258622
+Time in this step: 0.0250297
+Time in this step: 0.0250917
+Time in this step: 0.0255545
+Time in this step: 0.0250095
+Time in this step: 0.024849
+Time in this step: 0.0248152
+Time in this step: 0.02408
+Time in this step: 0.024422
+Time in this step: 0.024442
+Time in this step: 0.0230797
+Time in this step: 0.022481
+Time in this step: 0.0217035
+Time in this step: 0.0209299
+Time in this step: 0.0197875
+Time in this step: 0.0188322
+Time in this step: 0.0180334
+Time in this step: 0.0172333
+Time in this step: 0.0150694
+Time in this step: 0.0134078
+Time in this step: 0.0132867
+Time in this step: 0.0126314
+Time in this step: 0.0078611
+Time in this step: 0.00337566
+Terminated
+Discounted return = 5.84148, average = 10.9714
+Undiscounted return = 20, average = 26.875
+Starting run 17 with 512 simulations... 
+Time in this step: 0.0264996
+Time in this step: 0.0260022
+Time in this step: 0.0254648
+Time in this step: 0.0272915
+Time in this step: 0.0262454
+Time in this step: 0.0256196
+Time in this step: 0.0257795
+Time in this step: 0.0262958
+Time in this step: 0.0252137
+Time in this step: 0.0258353
+Time in this step: 0.0256874
+Time in this step: 0.0258092
+Time in this step: 0.0256144
+Time in this step: 0.0254611
+Time in this step: 0.0252894
+Time in this step: 0.0253183
+Time in this step: 0.0276156
+Time in this step: 0.0257646
+Time in this step: 0.0253882
+Time in this step: 0.0255288
+Time in this step: 0.0254739
+Time in this step: 0.0245866
+Time in this step: 0.0240706
+Time in this step: 0.0246665
+Time in this step: 0.0240668
+Time in this step: 0.0237065
+Time in this step: 0.023514
+Time in this step: 0.0238832
+Time in this step: 0.0221191
+Time in this step: 0.0232346
+Time in this step: 0.0221693
+Time in this step: 0.0219522
+Time in this step: 0.0230882
+Time in this step: 0.0229569
+Time in this step: 0.0231179
+Time in this step: 0.0214152
+Time in this step: 0.0199728
+Time in this step: 0.01697
+Time in this step: 0.0133086
+Time in this step: 0.011495
+Time in this step: 0.00513527
+Terminated
+Discounted return = 8.61814, average = 10.833
+Undiscounted return = 40, average = 27.6471
+Starting run 18 with 512 simulations... 
+Time in this step: 0.0265929
+Time in this step: 0.0257656
+Time in this step: 0.0253365
+Time in this step: 0.0244095
+Time in this step: 0.0236677
+Time in this step: 0.0238327
+Time in this step: 0.0232205
+Time in this step: 0.022995
+Time in this step: 0.0226473
+Time in this step: 0.0228013
+Time in this step: 0.0208555
+Time in this step: 0.0185904
+Time in this step: 0.0134877
+Time in this step: 0.00633311
+Terminated
+Discounted return = 13.7072, average = 10.9926
+Undiscounted return = 20, average = 27.2222
+Starting run 19 with 512 simulations... 
+Time in this step: 0.0282594
+Time in this step: 0.0251354
+Time in this step: 0.0251428
+Time in this step: 0.0253069
+Time in this step: 0.0250124
+Time in this step: 0.0243305
+Time in this step: 0.0334408
+Time in this step: 0.0227394
+Time in this step: 0.0228771
+Time in this step: 0.0230432
+Time in this step: 0.0226622
+Time in this step: 0.0220549
+Time in this step: 0.0214938
+Time in this step: 0.0177903
+Time in this step: 0.0136297
+Time in this step: 0.0129812
+Time in this step: 0.00529143
+Terminated
+Discounted return = 1.54021, average = 10.4951
+Undiscounted return = 10, average = 26.3158
+Starting run 20 with 512 simulations... 
+Time in this step: 0.0264733
+Time in this step: 0.025965
+Time in this step: 0.0257781
+Time in this step: 0.0255143
+Time in this step: 0.0241181
+Time in this step: 0.0237037
+Time in this step: 0.0255705
+Time in this step: 0.0240511
+Time in this step: 0.0234551
+Time in this step: 0.0215185
+Time in this step: 0.0209857
+Time in this step: 0.0200058
+Time in this step: 0.0201226
+Time in this step: 0.0183392
+Time in this step: 0.017695
+Time in this step: 0.0171959
+Time in this step: 0.0167587
+Time in this step: 0.0163681
+Time in this step: 0.0140476
+Time in this step: 0.0123535
+Time in this step: 0.00749541
+Time in this step: 0.00324504
+Terminated
+Discounted return = 22.8804, average = 11.1144
+Undiscounted return = 40, average = 27
+Simulations = 512
+Runs = 20
+Undiscounted return = 27 +- 2.65518
+Discounted return = 11.1144 +- 1.31546
+Time = 0.601562
+Starting run 1 with 1024 simulations... 
+Time in this step: 0.0532186
+Time in this step: 0.051653
+Time in this step: 0.0518932
+Time in this step: 0.0517301
+Time in this step: 0.0510084
+Time in this step: 0.0521177
+Time in this step: 0.0512275
+Time in this step: 0.0497814
+Time in this step: 0.0481617
+Time in this step: 0.0467892
+Time in this step: 0.0472923
+Time in this step: 0.0465657
+Time in this step: 0.044287
+Time in this step: 0.0381587
+Time in this step: 0.0254997
+Time in this step: 0.00990309
+Terminated
+Discounted return = -2.35046, average = -2.35046
+Undiscounted return = 0, average = 0
+Starting run 2 with 1024 simulations... 
+Time in this step: 0.0531038
+Time in this step: 0.0512978
+Time in this step: 0.0510064
+Time in this step: 0.0504534
+Time in this step: 0.0512859
+Time in this step: 0.0517826
+Time in this step: 0.0517822
+Time in this step: 0.0506022
+Time in this step: 0.0500475
+Time in this step: 0.0505148
+Time in this step: 0.050597
+Time in this step: 0.0519003
+Time in this step: 0.0517963
+Time in this step: 0.0505671
+Time in this step: 0.0511789
+Time in this step: 0.0518529
+Time in this step: 0.0514632
+Time in this step: 0.0538085
+Time in this step: 0.0513472
+Time in this step: 0.0518784
+Time in this step: 0.0514765
+Time in this step: 0.0513035
+Time in this step: 0.051026
+Time in this step: 0.0512854
+Time in this step: 0.0522459
+Time in this step: 0.0520224
+Time in this step: 0.0526113
+Time in this step: 0.0534524
+Time in this step: 0.0518535
+Time in this step: 0.0528381
+Time in this step: 0.0525347
+Time in this step: 0.052691
+Time in this step: 0.0525928
+Time in this step: 0.0604949
+Time in this step: 0.0529946
+Time in this step: 0.054655
+Time in this step: 0.0557725
+Time in this step: 0.0524632
+Time in this step: 0.0520808
+Time in this step: 0.0514845
+Time in this step: 0.0513582
+Time in this step: 0.0513211
+Time in this step: 0.051862
+Time in this step: 0.0496548
+Time in this step: 0.0470576
+Time in this step: 0.0411248
+Time in this step: 0.0288988
+Time in this step: 0.0110261
+Terminated
+Discounted return = 0.897448, average = -0.726506
+Undiscounted return = 10, average = 5
+Starting run 3 with 1024 simulations... 
+Time in this step: 0.0521076
+Time in this step: 0.051367
+Time in this step: 0.0515714
+Time in this step: 0.0501157
+Time in this step: 0.0480884
+Time in this step: 0.047715
+Time in this step: 0.0498741
+Time in this step: 0.0495004
+Time in this step: 0.0493573
+Time in this step: 0.0464846
+Time in this step: 0.0452926
+Time in this step: 0.0427843
+Time in this step: 0.0421356
+Time in this step: 0.0394626
+Time in this step: 0.0336936
+Time in this step: 0.0241879
+Time in this step: 0.010818
+Terminated
+Discounted return = 18.9624, average = 5.83646
+Undiscounted return = 30, average = 13.3333
+Starting run 4 with 1024 simulations... 
+Time in this step: 0.061931
+Time in this step: 0.0507021
+Time in this step: 0.0522578
+Time in this step: 0.0521999
+Time in this step: 0.0511717
+Time in this step: 0.0523138
+Time in this step: 0.0541236
+Time in this step: 0.0520432
+Time in this step: 0.0519884
+Time in this step: 0.0519675
+Time in this step: 0.0514941
+Time in this step: 0.0510141
+Time in this step: 0.0505591
+Time in this step: 0.0483538
+Time in this step: 0.0458669
+Time in this step: 0.0379421
+Time in this step: 0.0305199
+Time in this step: 0.0229979
+Time in this step: 0.00956888
+Terminated
+Discounted return = 8.37341, average = 6.4707
+Undiscounted return = 20, average = 15
+Starting run 5 with 1024 simulations... 
+Time in this step: 0.0524777
+Time in this step: 0.0516195
+Time in this step: 0.0506387
+Time in this step: 0.0493995
+Time in this step: 0.0484746
+Time in this step: 0.0442488
+Time in this step: 0.0440561
+Time in this step: 0.0444951
+Time in this step: 0.0405332
+Time in this step: 0.0351497
+Time in this step: 0.0232556
+Time in this step: 0.00900278
+Terminated
+Discounted return = 12.6714, average = 7.71083
+Undiscounted return = 20, average = 16
+Starting run 6 with 1024 simulations... 
+Time in this step: 0.0524558
+Time in this step: 0.0540839
+Time in this step: 0.0552696
+Time in this step: 0.0525842
+Time in this step: 0.0520595
+Time in this step: 0.0510158
+Time in this step: 0.0503286
+Time in this step: 0.0488471
+Time in this step: 0.0489096
+Time in this step: 0.0480681
+Time in this step: 0.0478127
+Time in this step: 0.047922
+Time in this step: 0.0466588
+Time in this step: 0.047022
+Time in this step: 0.0468459
+Time in this step: 0.0486038
+Time in this step: 0.0436705
+Time in this step: 0.0435197
+Time in this step: 0.038066
+Time in this step: 0.0248591
+Time in this step: 0.00971343
+Terminated
+Discounted return = -3.76606, average = 5.79802
+Undiscounted return = 0, average = 13.3333
+Starting run 7 with 1024 simulations... 
+Time in this step: 0.0535038
+Time in this step: 0.051764
+Time in this step: 0.0513674
+Time in this step: 0.0515935
+Time in this step: 0.0521627
+Time in this step: 0.0506931
+Time in this step: 0.0512084
+Time in this step: 0.0508338
+Time in this step: 0.0505453
+Time in this step: 0.0515355
+Time in this step: 0.0490922
+Time in this step: 0.0493305
+Time in this step: 0.0483297
+Time in this step: 0.0470767
+Time in this step: 0.0430882
+Time in this step: 0.0376176
+Time in this step: 0.0253895
+Time in this step: 0.0106295
+Terminated
+Discounted return = -1.80617, average = 4.7117
+Undiscounted return = 0, average = 11.4286
+Starting run 8 with 1024 simulations... 
+Time in this step: 0.0526754
+Time in this step: 0.0515894
+Time in this step: 0.051688
+Time in this step: 0.0518599
+Time in this step: 0.0511576
+Time in this step: 0.0520728
+Time in this step: 0.0507933
+Time in this step: 0.0521853
+Time in this step: 0.0519023
+Time in this step: 0.0494786
+Time in this step: 0.0489229
+Time in this step: 0.0483562
+Time in this step: 0.0473909
+Time in this step: 0.0494204
+Time in this step: 0.0510944
+Time in this step: 0.0480046
+Time in this step: 0.0506611
+Time in this step: 0.0491263
+Time in this step: 0.0496442
+Time in this step: 0.0492134
+Time in this step: 0.0509412
+Time in this step: 0.0521687
+Time in this step: 0.0538078
+Time in this step: 0.0480491
+Time in this step: 0.0466728
+Time in this step: 0.0381278
+Time in this step: 0.0259217
+Time in this step: 0.0104576
+Terminated
+Discounted return = 9.13765, average = 5.26495
+Undiscounted return = 20, average = 12.5
+Starting run 9 with 1024 simulations... 
+Time in this step: 0.0533225
+Time in this step: 0.0570467
+Time in this step: 0.0529705
+Time in this step: 0.0517581
+Time in this step: 0.0518387
+Time in this step: 0.051708
+Time in this step: 0.0512602
+Time in this step: 0.0518796
+Time in this step: 0.0492496
+Time in this step: 0.0487776
+Time in this step: 0.0482362
+Time in this step: 0.0452004
+Time in this step: 0.0426409
+Time in this step: 0.0263269
+Time in this step: 0.0105059
+Terminated
+Discounted return = 4.87675, average = 5.22181
+Undiscounted return = 10, average = 12.2222
+Starting run 10 with 1024 simulations... 
+Time in this step: 0.0534472
+Time in this step: 0.0522892
+Time in this step: 0.0517997
+Time in this step: 0.0517228
+Time in this step: 0.0523072
+Time in this step: 0.0542266
+Time in this step: 0.0533508
+Time in this step: 0.0621631
+Time in this step: 0.0562345
+Time in this step: 0.0489132
+Time in this step: 0.0496026
+Time in this step: 0.0502101
+Time in this step: 0.0488062
+Time in this step: 0.0487537
+Time in this step: 0.0467465
+Time in this step: 0.0436808
+Time in this step: 0.0429112
+Time in this step: 0.0456651
+Time in this step: 0.0431191
+Time in this step: 0.0366361
+Time in this step: 0.0362371
+Time in this step: 0.0314575
+Time in this step: 0.0178648
+Time in this step: 0.00815667
+Terminated
+Discounted return = 10.1833, average = 5.71796
+Undiscounted return = 20, average = 13
+Starting run 11 with 1024 simulations... 
+Time in this step: 0.0522402
+Time in this step: 0.0516444
+Time in this step: 0.0514957
+Time in this step: 0.050641
+Time in this step: 0.0487472
+Time in this step: 0.0485323
+Time in this step: 0.0613528
+Time in this step: 0.0493467
+Time in this step: 0.0495393
+Time in this step: 0.0497557
+Time in this step: 0.0511324
+Time in this step: 0.050014
+Time in this step: 0.0497111
+Time in this step: 0.049268
+Time in this step: 0.0532963
+Time in this step: 0.0512967
+Time in this step: 0.051169
+Time in this step: 0.0494848
+Time in this step: 0.0492264
+Time in this step: 0.0493705
+Time in this step: 0.0496619
+Time in this step: 0.0498462
+Time in this step: 0.0496583
+Time in this step: 0.0493257
+Time in this step: 0.0501375
+Time in this step: 0.0499693
+Time in this step: 0.0492811
+Time in this step: 0.0493075
+Time in this step: 0.0499446
+Time in this step: 0.0492343
+Time in this step: 0.0494192
+Time in this step: 0.049208
+Time in this step: 0.0495718
+Time in this step: 0.0500932
+Time in this step: 0.0502174
+Time in this step: 0.0499735
+Time in this step: 0.0531698
+Time in this step: 0.0501065
+Time in this step: 0.0493757
+Time in this step: 0.0494756
+Time in this step: 0.0498391
+Time in this step: 0.0511239
+Time in this step: 0.0510733
+Time in this step: 0.0505914
+Time in this step: 0.0511686
+Time in this step: 0.0513093
+Time in this step: 0.0504873
+Time in this step: 0.0502803
+Time in this step: 0.0504837
+Time in this step: 0.0510812
+Time in this step: 0.05008
+Time in this step: 0.0475088
+Time in this step: 0.0441964
+Time in this step: 0.0379244
+Time in this step: 0.0275791
+Time in this step: 0.0101813
+Terminated
+Discounted return = 9.16914, average = 6.0317
+Undiscounted return = 20, average = 13.6364
+Starting run 12 with 1024 simulations... 
+Time in this step: 0.0527083
+Time in this step: 0.0545032
+Time in this step: 0.0517037
+Time in this step: 0.0520053
+Time in this step: 0.0514326
+Time in this step: 0.0518255
+Time in this step: 0.0518561
+Time in this step: 0.0502201
+Time in this step: 0.0511761
+Time in this step: 0.053575
+Time in this step: 0.0505396
+Time in this step: 0.0501982
+Time in this step: 0.0503611
+Time in this step: 0.0470501
+Time in this step: 0.0470127
+Time in this step: 0.0424989
+Time in this step: 0.03907
+Time in this step: 0.0477814
+Time in this step: 0.0194386
+Time in this step: 0.00790579
+Terminated
+Discounted return = 13.5399, average = 6.65738
+Undiscounted return = 30, average = 15
+Starting run 13 with 1024 simulations... 
+Time in this step: 0.0525649
+Time in this step: 0.0508601
+Time in this step: 0.0505521
+Time in this step: 0.0504286
+Time in this step: 0.0509063
+Time in this step: 0.0494073
+Time in this step: 0.0593685
+Time in this step: 0.049421
+Time in this step: 0.0482562
+Time in this step: 0.0526153
+Time in this step: 0.0480157
+Time in this step: 0.0616588
+Time in this step: 0.0460809
+Time in this step: 0.0440882
+Time in this step: 0.0432111
+Time in this step: 0.0425255
+Time in this step: 0.0442792
+Time in this step: 0.0393473
+Time in this step: 0.0337458
+Time in this step: 0.0290854
+Time in this step: 0.0163712
+Time in this step: 0.00708459
+Terminated
+Discounted return = 10.6747, average = 6.96641
+Undiscounted return = 30, average = 16.1538
+Starting run 14 with 1024 simulations... 
+Time in this step: 0.0541584
+Time in this step: 0.0524475
+Time in this step: 0.0528212
+Time in this step: 0.051127
+Time in this step: 0.050806
+Time in this step: 0.0523214
+Time in this step: 0.0503251
+Time in this step: 0.049849
+Time in this step: 0.0482629
+Time in this step: 0.0497879
+Time in this step: 0.0476641
+Time in this step: 0.0459603
+Time in this step: 0.0428763
+Time in this step: 0.0359712
+Time in this step: 0.0249191
+Time in this step: 0.00969602
+Terminated
+Discounted return = 11.9838, average = 7.3248
+Undiscounted return = 20, average = 16.4286
+Starting run 15 with 1024 simulations... 
+Time in this step: 0.0545781
+Time in this step: 0.0515333
+Time in this step: 0.0527848
+Time in this step: 0.0502093
+Time in this step: 0.0481812
+Time in this step: 0.0488883
+Time in this step: 0.0485045
+Time in this step: 0.0481148
+Time in this step: 0.048265
+Time in this step: 0.0484495
+Time in this step: 0.048056
+Time in this step: 0.0589052
+Time in this step: 0.045253
+Time in this step: 0.0448809
+Time in this step: 0.0289744
+Time in this step: 0.0108047
+Terminated
+Discounted return = 13.2067, average = 7.71692
+Undiscounted return = 20, average = 16.6667
+Starting run 16 with 1024 simulations... 
+Time in this step: 0.0546358
+Time in this step: 0.071925
+Time in this step: 0.0546518
+Time in this step: 0.0531926
+Time in this step: 0.050029
+Time in this step: 0.0494068
+Time in this step: 0.0475799
+Time in this step: 0.0436966
+Time in this step: 0.0378882
+Time in this step: 0.0261754
+Time in this step: 0.0103695
+Terminated
+Discounted return = 14.1324, average = 8.11789
+Undiscounted return = 20, average = 16.875
+Starting run 17 with 1024 simulations... 
+Time in this step: 0.0522691
+Time in this step: 0.0509155
+Time in this step: 0.0537535
+Time in this step: 0.052104
+Time in this step: 0.0517339
+Time in this step: 0.0486877
+Time in this step: 0.0483041
+Time in this step: 0.0512726
+Time in this step: 0.0485281
+Time in this step: 0.0444961
+Time in this step: 0.0376222
+Time in this step: 0.0235295
+Time in this step: 0.00884865
+Terminated
+Discounted return = 13.5487, average = 8.43735
+Undiscounted return = 20, average = 17.0588
+Starting run 18 with 1024 simulations... 
+Time in this step: 0.0546515
+Time in this step: 0.0526578
+Time in this step: 0.0526203
+Time in this step: 0.0527486
+Time in this step: 0.0526627
+Time in this step: 0.0524659
+Time in this step: 0.0524485
+Time in this step: 0.0514023
+Time in this step: 0.0534237
+Time in this step: 0.0592092
+Time in this step: 0.0527685
+Time in this step: 0.0482271
+Time in this step: 0.0460054
+Time in this step: 0.0430088
+Time in this step: 0.0436069
+Time in this step: 0.041022
+Time in this step: 0.0326973
+Time in this step: 0.0190196
+Time in this step: 0.00818499
+Terminated
+Discounted return = 11.1332, average = 8.58712
+Undiscounted return = 20, average = 17.2222
+Starting run 19 with 1024 simulations... 
+Time in this step: 0.0550086
+Time in this step: 0.0526011
+Time in this step: 0.0512565
+Time in this step: 0.0505725
+Time in this step: 0.0512956
+Time in this step: 0.0510254
+Time in this step: 0.0504978
+Time in this step: 0.0490164
+Time in this step: 0.0466806
+Time in this step: 0.0462027
+Time in this step: 0.0467905
+Time in this step: 0.0466159
+Time in this step: 0.0415544
+Time in this step: 0.0353242
+Time in this step: 0.0281251
+Time in this step: 0.0226909
+Time in this step: 0.00933669
+Terminated
+Discounted return = 16.6289, average = 9.01037
+Undiscounted return = 30, average = 17.8947
+Starting run 20 with 1024 simulations... 
+Time in this step: 0.0570196
+Time in this step: 0.0517806
+Time in this step: 0.0517499
+Time in this step: 0.0526021
+Time in this step: 0.0510501
+Time in this step: 0.0506287
+Time in this step: 0.050509
+Time in this step: 0.0503952
+Time in this step: 0.0480698
+Time in this step: 0.0482877
+Time in this step: 0.0476641
+Time in this step: 0.0475094
+Time in this step: 0.045045
+Time in this step: 0.045435
+Time in this step: 0.0434113
+Time in this step: 0.0439121
+Time in this step: 0.0427486
+Time in this step: 0.0419544
+Time in this step: 0.0397608
+Time in this step: 0.0359687
+Time in this step: 0.030929
+Time in this step: 0.017285
+Time in this step: 0.00714613
+Terminated
+Discounted return = 19.5333, average = 9.53652
+Undiscounted return = 40, average = 19
+Simulations = 1024
+Runs = 20
+Undiscounted return = 19 +- 2.33452
+Discounted return = 9.53652 +- 1.47546
+Time = 1.00282
+Starting run 1 with 2048 simulations... 
+Time in this step: 0.103926
+Time in this step: 0.102844
+Time in this step: 0.110355
+Time in this step: 0.108908
+Time in this step: 0.105983
+Time in this step: 0.098844
+Time in this step: 0.098595
+Time in this step: 0.0975353
+Time in this step: 0.0918024
+Time in this step: 0.0859765
+Time in this step: 0.0740445
+Time in this step: 0.032866
+Time in this step: 0.0135305
+Terminated
+Discounted return = 13.1414, average = 13.1414
+Undiscounted return = 20, average = 20
+Starting run 2 with 2048 simulations... 
+Time in this step: 0.107039
+Time in this step: 0.115138
+Time in this step: 0.103385
+Time in this step: 0.10301
+Time in this step: 0.104755
+Time in this step: 0.103027
+Time in this step: 0.102729
+Time in this step: 0.104809
+Time in this step: 0.102794
+Time in this step: 0.102698
+Time in this step: 0.108694
+Time in this step: 0.105693
+Time in this step: 0.104816
+Time in this step: 0.103813
+Time in this step: 0.103972
+Time in this step: 0.103178
+Time in this step: 0.102969
+Time in this step: 0.104139
+Time in this step: 0.0982352
+Time in this step: 0.0968057
+Time in this step: 0.0975036
+Time in this step: 0.0911015
+Time in this step: 0.0937448
+Time in this step: 0.0920949
+Time in this step: 0.0850264
+Time in this step: 0.0741785
+Time in this step: 0.0547663
+Time in this step: 0.0158697
+Terminated
+Discounted return = 6.90471, average = 10.0231
+Undiscounted return = 20, average = 20
+Starting run 3 with 2048 simulations... 
+Time in this step: 0.108051
+Time in this step: 0.10577
+Time in this step: 0.105728
+Time in this step: 0.104934
+Time in this step: 0.111914
+Time in this step: 0.122605
+Time in this step: 0.105404
+Time in this step: 0.0991499
+Time in this step: 0.0942406
+Time in this step: 0.0904309
+Time in this step: 0.0902496
+Time in this step: 0.0899799
+Time in this step: 0.0894215
+Time in this step: 0.082091
+Time in this step: 0.0676882
+Time in this step: 0.0299082
+Time in this step: 0.0137974
+Terminated
+Discounted return = 11.0355, average = 10.3605
+Undiscounted return = 20, average = 20
+Starting run 4 with 2048 simulations... 
+Time in this step: 0.105872
+Time in this step: 0.105227
+Time in this step: 0.103743
+Time in this step: 0.111467
+Time in this step: 0.105568
+Time in this step: 0.106447
+Time in this step: 0.109561
+Time in this step: 0.104605
+Time in this step: 0.105117
+Time in this step: 0.104682
+Time in this step: 0.106314
+Time in this step: 0.105713
+Time in this step: 0.103868
+Time in this step: 0.104233
+Time in this step: 0.105269
+Time in this step: 0.10688
+Time in this step: 0.104694
+Time in this step: 0.103536
+Time in this step: 0.105373
+Time in this step: 0.106291
+Time in this step: 0.103999
+Time in this step: 0.103213
+Time in this step: 0.104678
+Time in this step: 0.103405
+Time in this step: 0.104705
+Time in this step: 0.0997757
+Time in this step: 0.0930532
+Time in this step: 0.0826933
+Time in this step: 0.0823558
+Time in this step: 0.0359945
+Time in this step: 0.0155909
+Terminated
+Discounted return = 2.14639, average = 8.30699
+Undiscounted return = 10, average = 17.5
+Starting run 5 with 2048 simulations... 
+Time in this step: 0.104442
+Time in this step: 0.104122
+Time in this step: 0.105834
+Time in this step: 0.104447
+Time in this step: 0.10327
+Time in this step: 0.11462
+Time in this step: 0.105921
+Time in this step: 0.111254
+Time in this step: 0.106253
+Time in this step: 0.101227
+Time in this step: 0.0984968
+Time in this step: 0.0978398
+Time in this step: 0.0942409
+Time in this step: 0.09667
+Time in this step: 0.0782444
+Time in this step: 0.0801382
+Time in this step: 0.0621942
+Time in this step: 0.0268832
+Time in this step: 0.0114813
+Terminated
+Discounted return = 16.3591, average = 9.91742
+Undiscounted return = 30, average = 20
+Starting run 6 with 2048 simulations... 
+Time in this step: 0.113794
+Time in this step: 0.103131
+Time in this step: 0.10545
+Time in this step: 0.101529
+Time in this step: 0.101029
+Time in this step: 0.101508
+Time in this step: 0.0953429
+Time in this step: 0.0938736
+Time in this step: 0.0918101
+Time in this step: 0.0876671
+Time in this step: 0.0840675
+Time in this step: 0.0720933
+Time in this step: 0.0313026
+Time in this step: 0.0141849
+Terminated
+Discounted return = 11.4359, average = 10.1705
+Undiscounted return = 20, average = 20
+Starting run 7 with 2048 simulations... 
+Time in this step: 0.105036
+Time in this step: 0.103319
+Time in this step: 0.0992746
+Time in this step: 0.101038
+Time in this step: 0.0969512
+Time in this step: 0.0973959
+Time in this step: 0.103916
+Time in this step: 0.0953464
+Time in this step: 0.0933841
+Time in this step: 0.089449
+Time in this step: 0.0789887
+Time in this step: 0.0799521
+Time in this step: 0.030127
+Time in this step: 0.0126995
+Terminated
+Discounted return = 20.3414, average = 11.6235
+Undiscounted return = 30, average = 21.4286
+Starting run 8 with 2048 simulations... 
+Time in this step: 0.105815
+Time in this step: 0.106734
+Time in this step: 0.103472
+Time in this step: 0.106593
+Time in this step: 0.0961999
+Time in this step: 0.0926863
+Time in this step: 0.0876149
+Time in this step: 0.0743609
+Time in this step: 0.0318883
+Time in this step: 0.0143726
+Terminated
+Discounted return = 14.8762, average = 12.0301
+Undiscounted return = 20, average = 21.25
+Starting run 9 with 2048 simulations... 
+Time in this step: 0.107712
+Time in this step: 0.102548
+Time in this step: 0.102052
+Time in this step: 0.105912
+Time in this step: 0.105922
+Time in this step: 0.104377
+Time in this step: 0.0962601
+Time in this step: 0.0987744
+Time in this step: 0.0998408
+Time in this step: 0.0983138
+Time in this step: 0.101376
+Time in this step: 0.0980569
+Time in this step: 0.097582
+Time in this step: 0.11011
+Time in this step: 0.0980653
+Time in this step: 0.0970222
+Time in this step: 0.117006
+Time in this step: 0.098565
+Time in this step: 0.0990375
+Time in this step: 0.100046
+Time in this step: 0.0993612
+Time in this step: 0.103031
+Time in this step: 0.0914889
+Time in this step: 0.0897346
+Time in this step: 0.0900047
+Time in this step: 0.0859977
+Time in this step: 0.0872234
+Time in this step: 0.0863665
+Time in this step: 0.0862956
+Time in this step: 0.0803341
+Time in this step: 0.0676668
+Time in this step: 0.0295763
+Time in this step: 0.0139687
+Terminated
+Discounted return = 12.5948, average = 12.0928
+Undiscounted return = 30, average = 22.2222
+Starting run 10 with 2048 simulations... 
+Time in this step: 0.111772
+Time in this step: 0.106085
+Time in this step: 0.102394
+Time in this step: 0.101875
+Time in this step: 0.0997079
+Time in this step: 0.101615
+Time in this step: 0.100632
+Time in this step: 0.100218
+Time in this step: 0.0975274
+Time in this step: 0.0990938
+Time in this step: 0.0884701
+Time in this step: 0.0785846
+Time in this step: 0.0412191
+Time in this step: 0.0172786
+Terminated
+Discounted return = 5.13342, average = 11.3969
+Undiscounted return = 10, average = 21
+Starting run 11 with 2048 simulations... 
+Time in this step: 0.108281
+Time in this step: 0.104047
+Time in this step: 0.103201
+Time in this step: 0.10433
+Time in this step: 0.104873
+Time in this step: 0.104352
+Time in this step: 0.113992
+Time in this step: 0.10369
+Time in this step: 0.105703
+Time in this step: 0.110155
+Time in this step: 0.106752
+Time in this step: 0.10537
+Time in this step: 0.103741
+Time in this step: 0.105538
+Time in this step: 0.103875
+Time in this step: 0.103974
+Time in this step: 0.105236
+Time in this step: 0.104423
+Time in this step: 0.104487
+Time in this step: 0.10397
+Time in this step: 0.104297
+Time in this step: 0.11407
+Time in this step: 0.111363
+Time in this step: 0.109103
+Time in this step: 0.106097
+Time in this step: 0.105372
+Time in this step: 0.114642
+Time in this step: 0.107797
+Time in this step: 0.106406
+Time in this step: 0.104768
+Time in this step: 0.105235
+Time in this step: 0.105788
+Time in this step: 0.0976814
+Time in this step: 0.0985248
+Time in this step: 0.114761
+Time in this step: 0.0814868
+Time in this step: 0.0345361
+Time in this step: 0.0152347
+Terminated
+Discounted return = 1.4989, average = 10.4971
+Undiscounted return = 10, average = 20
+Starting run 12 with 2048 simulations... 
+Time in this step: 0.106413
+Time in this step: 0.105756
+Time in this step: 0.103892
+Time in this step: 0.103015
+Time in this step: 0.104213
+Time in this step: 0.102112
+Time in this step: 0.104192
+Time in this step: 0.102419
+Time in this step: 0.101812
+Time in this step: 0.100221
+Time in this step: 0.0995854
+Time in this step: 0.0956364
+Time in this step: 0.0924477
+Time in this step: 0.0909697
+Time in this step: 0.0872732
+Time in this step: 0.0851198
+Time in this step: 0.0793079
+Time in this step: 0.0699241
+Time in this step: 0.060874
+Time in this step: 0.024088
+Time in this step: 0.0105896
+Terminated
+Discounted return = 14.4063, average = 10.8228
+Undiscounted return = 30, average = 20.8333
+Starting run 13 with 2048 simulations... 
+Time in this step: 0.106781
+Time in this step: 0.107786
+Time in this step: 0.105364
+Time in this step: 0.105125
+Time in this step: 0.106942
+Time in this step: 0.107172
+Time in this step: 0.10321
+Time in this step: 0.102754
+Time in this step: 0.102453
+Time in this step: 0.0997668
+Time in this step: 0.0966205
+Time in this step: 0.0949586
+Time in this step: 0.0869886
+Time in this step: 0.0721574
+Time in this step: 0.0364451
+Time in this step: 0.0147666
+Terminated
+Discounted return = 10.9354, average = 10.8315
+Undiscounted return = 20, average = 20.7692
+Starting run 14 with 2048 simulations... 
+Time in this step: 0.105985
+Time in this step: 0.103005
+Time in this step: 0.104243
+Time in this step: 0.103189
+Time in this step: 0.102495
+Time in this step: 0.103429
+Time in this step: 0.100553
+Time in this step: 0.0992748
+Time in this step: 0.099237
+Time in this step: 0.0967947
+Time in this step: 0.0916863
+Time in this step: 0.0916273
+Time in this step: 0.0923438
+Time in this step: 0.0954704
+Time in this step: 0.0980937
+Time in this step: 0.0991973
+Time in this step: 0.101465
+Time in this step: 0.112456
+Time in this step: 0.104789
+Time in this step: 0.0994124
+Time in this step: 0.102712
+Time in this step: 0.0991232
+Time in this step: 0.0980183
+Time in this step: 0.0989536
+Time in this step: 0.0982006
+Time in this step: 0.101382
+Time in this step: 0.101156
+Time in this step: 0.100299
+Time in this step: 0.0989718
+Time in this step: 0.100501
+Time in this step: 0.110226
+Time in this step: 0.0996083
+Time in this step: 0.0984051
+Time in this step: 0.113572
+Time in this step: 0.100298
+Time in this step: 0.098183
+Time in this step: 0.0947368
+Time in this step: 0.0874502
+Time in this step: 0.0840529
+Time in this step: 0.0310295
+Time in this step: 0.0136385
+Terminated
+Discounted return = 7.58762, average = 10.5998
+Undiscounted return = 20, average = 20.7143
+Starting run 15 with 2048 simulations... 
+Time in this step: 0.121518
+Time in this step: 0.103093
+Time in this step: 0.106972
+Time in this step: 0.101408
+Time in this step: 0.102083
+Time in this step: 0.103462
+Time in this step: 0.102982
+Time in this step: 0.103729
+Time in this step: 0.102564
+Time in this step: 0.102366
+Time in this step: 0.104825
+Time in this step: 0.0998779
+Time in this step: 0.0955562
+Time in this step: 0.0924234
+Time in this step: 0.0931835
+Time in this step: 0.0903894
+Time in this step: 0.0785557
+Time in this step: 0.0747131
+Time in this step: 0.0567029
+Time in this step: 0.0252614
+Time in this step: 0.0118426
+Terminated
+Discounted return = -1.34326, average = 9.80359
+Undiscounted return = 0, average = 19.3333
+Starting run 16 with 2048 simulations... 
+Time in this step: 0.105374
+Time in this step: 0.104874
+Time in this step: 0.107755
+Time in this step: 0.105829
+Time in this step: 0.106048
+Time in this step: 0.10348
+Time in this step: 0.110278
+Time in this step: 0.101586
+Time in this step: 0.0955284
+Time in this step: 0.0906184
+Time in this step: 0.098141
+Time in this step: 0.0876077
+Time in this step: 0.0868141
+Time in this step: 0.0788626
+Time in this step: 0.0673087
+Time in this step: 0.0281684
+Time in this step: 0.0124097
+Terminated
+Discounted return = 17.0228, average = 10.2548
+Undiscounted return = 30, average = 20
+Starting run 17 with 2048 simulations... 
+Time in this step: 0.105937
+Time in this step: 0.112632
+Time in this step: 0.110828
+Time in this step: 0.123336
+Time in this step: 0.105728
+Time in this step: 0.108873
+Time in this step: 0.108939
+Time in this step: 0.109441
+Time in this step: 0.102972
+Time in this step: 0.113557
+Time in this step: 0.102486
+Time in this step: 0.101501
+Time in this step: 0.101961
+Time in this step: 0.102291
+Time in this step: 0.103897
+Time in this step: 0.102937
+Time in this step: 0.102082
+Time in this step: 0.0993907
+Time in this step: 0.0969398
+Time in this step: 0.0921372
+Time in this step: 0.0845497
+Time in this step: 0.0844982
+Time in this step: 0.0812765
+Time in this step: 0.0650208
+Time in this step: 0.0279884
+Time in this step: 0.0128613
+Terminated
+Discounted return = 10.1517, average = 10.2487
+Undiscounted return = 30, average = 20.5882
+Starting run 18 with 2048 simulations... 
+Time in this step: 0.105726
+Time in this step: 0.105825
+Time in this step: 0.10738
+Time in this step: 0.102672
+Time in this step: 0.103228
+Time in this step: 0.104221
+Time in this step: 0.107791
+Time in this step: 0.103439
+Time in this step: 0.110195
+Time in this step: 0.120403
+Time in this step: 0.0953876
+Time in this step: 0.0974487
+Time in this step: 0.0925643
+Time in this step: 0.0861778
+Time in this step: 0.0844158
+Time in this step: 0.0798123
+Time in this step: 0.0668766
+Time in this step: 0.0320927
+Time in this step: 0.0138561
+Terminated
+Discounted return = 3.16089, average = 9.85496
+Undiscounted return = 10, average = 20
+Starting run 19 with 2048 simulations... 
+Time in this step: 0.104794
+Time in this step: 0.105068
+Time in this step: 0.10478
+Time in this step: 0.110021
+Time in this step: 0.104286
+Time in this step: 0.104276
+Time in this step: 0.104884
+Time in this step: 0.104151
+Time in this step: 0.105391
+Time in this step: 0.104881
+Time in this step: 0.10089
+Time in this step: 0.0973019
+Time in this step: 0.100772
+Time in this step: 0.0868325
+Time in this step: 0.0734223
+Time in this step: 0.0362275
+Time in this step: 0.0153716
+Terminated
+Discounted return = 10.3886, average = 9.88304
+Undiscounted return = 20, average = 20
+Starting run 20 with 2048 simulations... 
+Time in this step: 0.104804
+Time in this step: 0.101733
+Time in this step: 0.103719
+Time in this step: 0.103066
+Time in this step: 0.10221
+Time in this step: 0.101821
+Time in this step: 0.103882
+Time in this step: 0.104031
+Time in this step: 0.104704
+Time in this step: 0.10089
+Time in this step: 0.101497
+Time in this step: 0.0972204
+Time in this step: 0.0986407
+Time in this step: 0.0981316
+Time in this step: 0.0867682
+Time in this step: 0.0734969
+Time in this step: 0.0344148
+Time in this step: 0.0146144
+Terminated
+Discounted return = 10.1686, average = 9.89732
+Undiscounted return = 20, average = 20
+Simulations = 2048
+Runs = 20
+Undiscounted return = 20 +- 1.87083
+Discounted return = 9.89732 +- 1.23387
+Time = 1.98382
+Starting run 1 with 4096 simulations... 
+Time in this step: 0.218805
+Time in this step: 0.215897
+Time in this step: 0.226017
+Time in this step: 0.213573
+Time in this step: 0.20955
+Time in this step: 0.210082
+Time in this step: 0.209613
+Time in this step: 0.208637
+Time in this step: 0.210594
+Time in this step: 0.222219
+Time in this step: 0.232612
+Time in this step: 0.236837
+Time in this step: 0.215557
+Time in this step: 0.211068
+Time in this step: 0.213243
+Time in this step: 0.210404
+Time in this step: 0.230032
+Time in this step: 0.199574
+Time in this step: 0.197781
+Time in this step: 0.206986
+Time in this step: 0.199892
+Time in this step: 0.191877
+Time in this step: 0.192647
+Time in this step: 0.189837
+Time in this step: 0.191747
+Time in this step: 0.176284
+Time in this step: 0.115282
+Time in this step: 0.047081
+Time in this step: 0.0219533
+Terminated
+Discounted return = 6.77954, average = 6.77954
+Undiscounted return = 20, average = 20
+Starting run 2 with 4096 simulations... 
+Time in this step: 0.21648
+Time in this step: 0.206069
+Time in this step: 0.215419
+Time in this step: 0.216498
+Time in this step: 0.224474
+Time in this step: 0.206967
+Time in this step: 0.210659
+Time in this step: 0.223701
+Time in this step: 0.214047
+Time in this step: 0.214151
+Time in this step: 0.211774
+Time in this step: 0.211543
+Time in this step: 0.213178
+Time in this step: 0.214306
+Time in this step: 0.213026
+Time in this step: 0.212778
+Time in this step: 0.224124
+Time in this step: 0.215219
+Time in this step: 0.208597
+Time in this step: 0.189032
+Time in this step: 0.131961
+Time in this step: 0.0462009
+Time in this step: 0.023217
+Terminated
+Discounted return = 3.23534, average = 5.00744
+Undiscounted return = 10, average = 15
+Starting run 3 with 4096 simulations... 
+Time in this step: 0.224542
+Time in this step: 0.218317
+Time in this step: 0.212362
+Time in this step: 0.208864
+Time in this step: 0.209498
+Time in this step: 0.203869
+Time in this step: 0.213761
+Time in this step: 0.200743
+Time in this step: 0.181595
+Time in this step: 0.136768
+Time in this step: 0.0506725
+Time in this step: 0.0223375
+Terminated
+Discounted return = 5.688, average = 5.23429
+Undiscounted return = 10, average = 13.3333
+Starting run 4 with 4096 simulations... 
+Time in this step: 0.214041
+Time in this step: 0.218293
+Time in this step: 0.212256
+Time in this step: 0.203269
+Time in this step: 0.204009
+Time in this step: 0.205987
+Time in this step: 0.193007
+Time in this step: 0.177919
+Time in this step: 0.111111
+Time in this step: 0.0438192
+Time in this step: 0.0204448
+Terminated
+Discounted return = 14.5611, average = 7.566
+Undiscounted return = 20, average = 15
+Starting run 5 with 4096 simulations... 
+Time in this step: 0.218866
+Time in this step: 0.218856
+Time in this step: 0.210803
+Time in this step: 0.207006
+Time in this step: 0.212312
+Time in this step: 0.197309
+Time in this step: 0.189113
+Time in this step: 0.173906
+Time in this step: 0.123474
+Time in this step: 0.0424083
+Time in this step: 0.0210763
+Terminated
+Discounted return = 14.1324, average = 8.87928
+Undiscounted return = 20, average = 16
+Starting run 6 with 4096 simulations... 
+Time in this step: 0.227503
+Time in this step: 0.224783
+Time in this step: 0.215518
+Time in this step: 0.213294
+Time in this step: 0.21522
+Time in this step: 0.221034
+Time in this step: 0.227589
+Time in this step: 0.216682
+Time in this step: 0.211371
+Time in this step: 0.223791
+Time in this step: 0.199802
+Time in this step: 0.1926
+Time in this step: 0.191751
+Time in this step: 0.108531
+Time in this step: 0.0466994
+Time in this step: 0.0206978
+Terminated
+Discounted return = 10.9354, average = 9.22197
+Undiscounted return = 20, average = 16.6667
+Starting run 7 with 4096 simulations... 
+Time in this step: 0.213753
+Time in this step: 0.209209
+Time in this step: 0.211625
+Time in this step: 0.207597
+Time in this step: 0.217516
+Time in this step: 0.205687
+Time in this step: 0.19592
+Time in this step: 0.195734
+Time in this step: 0.18571
+Time in this step: 0.142831
+Time in this step: 0.0521836
+Time in this step: 0.0230913
+Terminated
+Discounted return = 5.688, average = 8.71712
+Undiscounted return = 10, average = 15.7143
+Starting run 8 with 4096 simulations... 
+Time in this step: 0.2122
+Time in this step: 0.210926
+Time in this step: 0.215567
+Time in this step: 0.215102
+Time in this step: 0.210606
+Time in this step: 0.211346
+Time in this step: 0.213987
+Time in this step: 0.211326
+Time in this step: 0.212219
+Time in this step: 0.212359
+Time in this step: 0.211311
+Time in this step: 0.224262
+Time in this step: 0.217733
+Time in this step: 0.214562
+Time in this step: 0.215028
+Time in this step: 0.212778
+Time in this step: 0.210691
+Time in this step: 0.208933
+Time in this step: 0.201179
+Time in this step: 0.193238
+Time in this step: 0.182506
+Time in this step: 0.115681
+Time in this step: 0.0482367
+Time in this step: 0.0235253
+Terminated
+Discounted return = 7.25477, average = 8.53433
+Undiscounted return = 20, average = 16.25
+Starting run 9 with 4096 simulations... 
+Time in this step: 0.213147
+Time in this step: 0.207944
+Time in this step: 0.206341
+Time in this step: 0.2102
+Time in this step: 0.211765
+Time in this step: 0.207161
+Time in this step: 0.203569
+Time in this step: 0.199121
+Time in this step: 0.188979
+Time in this step: 0.179827
+Time in this step: 0.116657
+Time in this step: 0.0475509
+Time in this step: 0.0202807
+Terminated
+Discounted return = 13.1414, average = 9.04622
+Undiscounted return = 20, average = 16.6667
+Starting run 10 with 4096 simulations... 
+Time in this step: 0.212319
+Time in this step: 0.21128
+Time in this step: 0.212596
+Time in this step: 0.211571
+Time in this step: 0.208612
+Time in this step: 0.203822
+Time in this step: 0.196483
+Time in this step: 0.199377
+Time in this step: 0.206498
+Time in this step: 0.184374
+Time in this step: 0.16172
+Time in this step: 0.050584
+Time in this step: 0.0230789
+Terminated
+Discounted return = 5.4036, average = 8.68196
+Undiscounted return = 10, average = 16
+Starting run 11 with 4096 simulations... 
+Time in this step: 0.215976
+Time in this step: 0.210586
+Time in this step: 0.210972
+Time in this step: 0.209402
+Time in this step: 0.20335
+Time in this step: 0.200549
+Time in this step: 0.199339
+Time in this step: 0.180955
+Time in this step: 0.11665
+Time in this step: 0.0424093
+Time in this step: 0.0207521
+Terminated
+Discounted return = 14.1324, average = 9.17746
+Undiscounted return = 20, average = 16.3636
+Starting run 12 with 4096 simulations... 
+Time in this step: 0.213574
+Time in this step: 0.216094
+Time in this step: 0.211351
+Time in this step: 0.211348
+Time in this step: 0.212351
+Time in this step: 0.211609
+Time in this step: 0.210656
+Time in this step: 0.212358
+Time in this step: 0.21113
+Time in this step: 0.212691
+Time in this step: 0.215638
+Time in this step: 0.212506
+Time in this step: 0.212062
+Time in this step: 0.211351
+Time in this step: 0.210854
+Time in this step: 0.213856
+Time in this step: 0.213616
+Time in this step: 0.21397
+Time in this step: 0.21026
+Time in this step: 0.210814
+Time in this step: 0.205432
+Time in this step: 0.214916
+Time in this step: 0.200435
+Time in this step: 0.169367
+Time in this step: 0.164875
+Time in this step: 0.127623
+Time in this step: 0.104694
+Time in this step: 0.0432305
+Time in this step: 0.0214071
+Terminated
+Discounted return = 8.55778, average = 9.12582
+Undiscounted return = 30, average = 17.5
+Starting run 13 with 4096 simulations... 
+Time in this step: 0.220339
+Time in this step: 0.213131
+Time in this step: 0.210253
+Time in this step: 0.210865
+Time in this step: 0.210698
+Time in this step: 0.222167
+Time in this step: 0.210688
+Time in this step: 0.202585
+Time in this step: 0.190785
+Time in this step: 0.179134
+Time in this step: 0.124673
+Time in this step: 0.0475329
+Time in this step: 0.0235993
+Terminated
+Discounted return = 12.7545, average = 9.40495
+Undiscounted return = 20, average = 17.6923
+Starting run 14 with 4096 simulations... 
+Time in this step: 0.215344
+Time in this step: 0.21761
+Time in this step: 0.203641
+Time in this step: 0.204975
+Time in this step: 0.196999
+Time in this step: 0.195361
+Time in this step: 0.188356
+Time in this step: 0.189831
+Time in this step: 0.185258
+Time in this step: 0.188158
+Time in this step: 0.182
+Time in this step: 0.173762
+Time in this step: 0.159771
+Time in this step: 0.158334
+Time in this step: 0.079321
+Time in this step: 0.0370409
+Time in this step: 0.0192848
+Terminated
+Discounted return = 18.9624, average = 10.0876
+Undiscounted return = 30, average = 18.5714
+Starting run 15 with 4096 simulations... 
+Time in this step: 0.218234
+Time in this step: 0.207447
+Time in this step: 0.202371
+Time in this step: 0.212841
+Time in this step: 0.196756
+Time in this step: 0.188935
+Time in this step: 0.172712
+Time in this step: 0.114863
+Time in this step: 0.0429265
+Time in this step: 0.0201694
+Terminated
+Discounted return = 14.8762, average = 10.4069
+Undiscounted return = 20, average = 18.6667
+Starting run 16 with 4096 simulations... 
+Time in this step: 0.216418
+Time in this step: 0.218798
+Time in this step: 0.209776
+Time in this step: 0.211495
+Time in this step: 0.219834
+Time in this step: 0.214507
+Time in this step: 0.20848
+Time in this step: 0.214414
+Time in this step: 0.212591
+Time in this step: 0.213442
+Time in this step: 0.210394
+Time in this step: 0.211394
+Time in this step: 0.220021
+Time in this step: 0.214337
+Time in this step: 0.211469
+Time in this step: 0.22193
+Time in this step: 0.211724
+Time in this step: 0.194175
+Time in this step: 0.194079
+Time in this step: 0.154935
+Time in this step: 0.141976
+Time in this step: 0.105125
+Time in this step: 0.0414256
+Time in this step: 0.0187025
+Terminated
+Discounted return = 10.8396, average = 10.4339
+Undiscounted return = 30, average = 19.375
+Starting run 17 with 4096 simulations... 
+Time in this step: 0.218164
+Time in this step: 0.210253
+Time in this step: 0.210026
+Time in this step: 0.213864
+Time in this step: 0.200872
+Time in this step: 0.196476
+Time in this step: 0.189054
+Time in this step: 0.173822
+Time in this step: 0.125054
+Time in this step: 0.0422622
+Time in this step: 0.0202507
+Terminated
+Discounted return = 14.5611, average = 10.6767
+Undiscounted return = 20, average = 19.4118
+Starting run 18 with 4096 simulations... 
+Time in this step: 0.21274
+Time in this step: 0.229216
+Time in this step: 0.203526
+Time in this step: 0.206739
+Time in this step: 0.208898
+Time in this step: 0.206161
+Time in this step: 0.228248
+Time in this step: 0.198664
+Time in this step: 0.146612
+Time in this step: 0.0527563
+Time in this step: 0.0229326
+Terminated
+Discounted return = 5.98737, average = 10.4162
+Undiscounted return = 10, average = 18.8889
+Starting run 19 with 4096 simulations... 
+Time in this step: 0.213364
+Time in this step: 0.211996
+Time in this step: 0.211
+Time in this step: 0.210102
+Time in this step: 0.203735
+Time in this step: 0.207481
+Time in this step: 0.201966
+Time in this step: 0.188219
+Time in this step: 0.182983
+Time in this step: 0.180205
+Time in this step: 0.184327
+Time in this step: 0.168739
+Time in this step: 0.124511
+Time in this step: 0.0402919
+Time in this step: 0.0203355
+Terminated
+Discounted return = 10.8641, average = 10.4397
+Undiscounted return = 20, average = 18.9474
+Starting run 20 with 4096 simulations... 
+Time in this step: 0.223783
+Time in this step: 0.215139
+Time in this step: 0.213091
+Time in this step: 0.213578
+Time in this step: 0.208244
+Time in this step: 0.222277
+Time in this step: 0.207876
+Time in this step: 0.212624
+Time in this step: 0.21893
+Time in this step: 0.21175
+Time in this step: 0.211445
+Time in this step: 0.212238
+Time in this step: 0.211325
+Time in this step: 0.21102
+Time in this step: 0.198727
+Time in this step: 0.186303
+Time in this step: 0.126191
+Time in this step: 0.072923
+Time in this step: 0.040901
+Time in this step: 0.0199193
+Terminated
+Discounted return = -0.407667, average = 9.89738
+Undiscounted return = 0, average = 18
+Simulations = 4096
+Runs = 20
+Undiscounted return = 18 +- 1.67332
+Discounted return = 9.89738 +- 1.0582
+Time = 2.94304
+Starting run 1 with 8192 simulations... 
+Time in this step: 0.440925
+Time in this step: 0.429977
+Time in this step: 0.427336
+Time in this step: 0.434245
+Time in this step: 0.439274
+Time in this step: 0.433154
+Time in this step: 0.433496
+Time in this step: 0.442114
+Time in this step: 0.436446
+Time in this step: 0.440448
+Time in this step: 0.437895
+Time in this step: 0.444365
+Time in this step: 0.446827
+Time in this step: 0.432157
+Time in this step: 0.434682
+Time in this step: 0.419807
+Time in this step: 0.420676
+Time in this step: 0.411723
+Time in this step: 0.407615
+Time in this step: 0.399844
+Time in this step: 0.392006
+Time in this step: 0.354793
+Time in this step: 0.285857
+Time in this step: 0.113234
+Time in this step: 0.0614067
+Time in this step: 0.0304812
+Terminated
+Discounted return = 6.54743, average = 6.54743
+Undiscounted return = 20, average = 20
+Starting run 2 with 8192 simulations... 
+Time in this step: 0.443426
+Time in this step: 0.430358
+Time in this step: 0.44005
+Time in this step: 0.429113
+Time in this step: 0.441609
+Time in this step: 0.428337
+Time in this step: 0.427287
+Time in this step: 0.411704
+Time in this step: 0.410656
+Time in this step: 0.378252
+Time in this step: 0.154475
+Time in this step: 0.0655875
+Time in this step: 0.0303735
+Terminated
+Discounted return = 12.7545, average = 9.65098
+Undiscounted return = 20, average = 20
+Starting run 3 with 8192 simulations... 
+Time in this step: 0.44903
+Time in this step: 0.455403
+Time in this step: 0.448799
+Time in this step: 0.436209
+Time in this step: 0.44154
+Time in this step: 0.464159
+Time in this step: 0.43393
+Time in this step: 0.407278
+Time in this step: 0.365388
+Time in this step: 0.15237
+Time in this step: 0.058756
+Time in this step: 0.0298682
+Terminated
+Discounted return = 13.4258, average = 10.9093
+Undiscounted return = 20, average = 20
+Starting run 4 with 8192 simulations... 
+Time in this step: 0.456353
+Time in this step: 0.446277
+Time in this step: 0.447412
+Time in this step: 0.459491
+Time in this step: 0.416527
+Time in this step: 0.393504
+Time in this step: 0.359038
+Time in this step: 0.146981
+Time in this step: 0.0736179
+Time in this step: 0.0284081
+Terminated
+Discounted return = 14.8762, average = 11.901
+Undiscounted return = 20, average = 20
+Starting run 5 with 8192 simulations... 
+Time in this step: 0.482359
+Time in this step: 0.431769
+Time in this step: 0.444196
+Time in this step: 0.439317
+Time in this step: 0.437618
+Time in this step: 0.436403
+Time in this step: 0.435045
+Time in this step: 0.43042
+Time in this step: 0.440059
+Time in this step: 0.437482
+Time in this step: 0.44731
+Time in this step: 0.468366
+Time in this step: 0.435253
+Time in this step: 0.398078
+Time in this step: 0.361163
+Time in this step: 0.16952
+Time in this step: 0.0657361
+Time in this step: 0.0339105
+Terminated
+Discounted return = 9.8692, average = 11.4946
+Undiscounted return = 20, average = 20
+Starting run 6 with 8192 simulations... 
+Time in this step: 0.451576
+Time in this step: 0.445315
+Time in this step: 0.446513
+Time in this step: 0.450066
+Time in this step: 0.454672
+Time in this step: 0.430223
+Time in this step: 0.419239
+Time in this step: 0.396341
+Time in this step: 0.366867
+Time in this step: 0.158925
+Time in this step: 0.0643355
+Time in this step: 0.0337148
+Terminated
+Discounted return = 5.688, average = 10.5269
+Undiscounted return = 10, average = 18.3333
+Starting run 7 with 8192 simulations... 
+Time in this step: 0.447701
+Time in this step: 0.429483
+Time in this step: 0.426782
+Time in this step: 0.423023
+Time in this step: 0.443221
+Time in this step: 0.429922
+Time in this step: 0.431982
+Time in this step: 0.435752
+Time in this step: 0.433988
+Time in this step: 0.437884
+Time in this step: 0.430812
+Time in this step: 0.424893
+Time in this step: 0.428266
+Time in this step: 0.443077
+Time in this step: 0.43212
+Time in this step: 0.432643
+Time in this step: 0.457983
+Time in this step: 0.443804
+Time in this step: 0.442881
+Time in this step: 0.447253
+Time in this step: 0.440855
+Time in this step: 0.439738
+Time in this step: 0.43174
+Time in this step: 0.442308
+Time in this step: 0.444186
+Time in this step: 0.428343
+Time in this step: 0.44729
+Time in this step: 0.436468
+Time in this step: 0.441066
+Time in this step: 0.451193
+Time in this step: 0.437318
+Time in this step: 0.435879
+Time in this step: 0.428274
+Time in this step: 0.428637
+Time in this step: 0.421658
+Time in this step: 0.398268
+Time in this step: 0.159488
+Time in this step: 0.0639443
+Time in this step: 0.0328759
+Terminated
+Discounted return = 1.42396, average = 9.22645
+Undiscounted return = 10, average = 17.1429
+Starting run 8 with 8192 simulations... 
+Time in this step: 0.446366
+Time in this step: 0.428411
+Time in this step: 0.435303
+Time in this step: 0.436704
+Time in this step: 0.426401
+Time in this step: 0.410756
+Time in this step: 0.40007
+Time in this step: 0.388489
+Time in this step: 0.374572
+Time in this step: 0.368453
+Time in this step: 0.36353
+Time in this step: 0.325165
+Time in this step: 0.188942
+Time in this step: 0.0951383
+Time in this step: 0.049251
+Time in this step: 0.0269709
+Terminated
+Discounted return = 19.4122, average = 10.4997
+Undiscounted return = 30, average = 18.75
+Starting run 9 with 8192 simulations... 
+Time in this step: 0.448397
+Time in this step: 0.471092
+Time in this step: 0.428183
+Time in this step: 0.436665
+Time in this step: 0.447743
+Time in this step: 0.450678
+Time in this step: 0.444073
+Time in this step: 0.432687
+Time in this step: 0.444225
+Time in this step: 0.449423
+Time in this step: 0.444751
+Time in this step: 0.431679
+Time in this step: 0.442027
+Time in this step: 0.434605
+Time in this step: 0.452936
+Time in this step: 0.432363
+Time in this step: 0.430392
+Time in this step: 0.432081
+Time in this step: 0.43094
+Time in this step: 0.450373
+Time in this step: 0.452379
+Time in this step: 0.436124
+Time in this step: 0.435472
+Time in this step: 0.407943
+Time in this step: 0.395845
+Time in this step: 0.408764
+Time in this step: 0.385871
+Time in this step: 0.419925
+Time in this step: 0.333203
+Time in this step: 0.114514
+Time in this step: 0.0590855
+Time in this step: 0.0311077
+Terminated
+Discounted return = 5.11264, average = 9.90111
+Undiscounted return = 20, average = 18.8889
+Starting run 10 with 8192 simulations... 
+Time in this step: 0.438124
+Time in this step: 0.442295
+Time in this step: 0.456015
+Time in this step: 0.439772
+Time in this step: 0.42936
+Time in this step: 0.41351
+Time in this step: 0.401668
+Time in this step: 0.401678
+Time in this step: 0.138707
+Time in this step: 0.0575537
+Time in this step: 0.0295795
+Terminated
+Discounted return = 14.1324, average = 10.3242
+Undiscounted return = 20, average = 19
+Starting run 11 with 8192 simulations... 
+Time in this step: 0.454182
+Time in this step: 0.472782
+Time in this step: 0.44361
+Time in this step: 0.437386
+Time in this step: 0.403543
+Time in this step: 0.388258
+Time in this step: 0.355761
+Time in this step: 0.134259
+Time in this step: 0.0576884
+Time in this step: 0.0288793
+Terminated
+Discounted return = 14.8762, average = 10.7381
+Undiscounted return = 20, average = 19.0909
+Starting run 12 with 8192 simulations... 
+Time in this step: 0.436925
+Time in this step: 0.441278
+Time in this step: 0.432319
+Time in this step: 0.442658
+Time in this step: 0.412606
+Time in this step: 0.393639
+Time in this step: 0.355788
+Time in this step: 0.168578
+Time in this step: 0.0598838
+Time in this step: 0.0296564
+Terminated
+Discounted return = 14.8762, average = 11.0829
+Undiscounted return = 20, average = 19.1667
+Starting run 13 with 8192 simulations... 
+Time in this step: 0.444395
+Time in this step: 0.431492
+Time in this step: 0.438875
+Time in this step: 0.439349
+Time in this step: 0.449364
+Time in this step: 0.421674
+Time in this step: 0.393788
+Time in this step: 0.366141
+Time in this step: 0.148282
+Time in this step: 0.0664267
+Time in this step: 0.0330954
+Terminated
+Discounted return = 14.1324, average = 11.3175
+Undiscounted return = 20, average = 19.2308
+Starting run 14 with 8192 simulations... 
+Time in this step: 0.455231
+Time in this step: 0.464448
+Time in this step: 0.434113
+Time in this step: 0.434677
+Time in this step: 0.433681
+Time in this step: 0.427541
+Time in this step: 0.411983
+Time in this step: 0.395849
+Time in this step: 0.35716
+Time in this step: 0.141508
+Time in this step: 0.0573305
+Time in this step: 0.0287596
+Terminated
+Discounted return = 13.4258, average = 11.4681
+Undiscounted return = 20, average = 19.2857
+Starting run 15 with 8192 simulations... 
+Time in this step: 0.445306
+Time in this step: 0.428537
+Time in this step: 0.464283
+Time in this step: 0.458627
+Time in this step: 0.425218
+Time in this step: 0.424606
+Time in this step: 0.430258
+Time in this step: 0.440493
+Time in this step: 0.430238
+Time in this step: 0.436015
+Time in this step: 0.4342
+Time in this step: 0.430309
+Time in this step: 0.446588
+Time in this step: 0.438161
+Time in this step: 0.439991
+Time in this step: 0.440273
+Time in this step: 0.446345
+Time in this step: 0.44868
+Time in this step: 0.442401
+Time in this step: 0.442376
+Time in this step: 0.441519
+Time in this step: 0.451623
+Time in this step: 0.435708
+Time in this step: 0.452105
+Time in this step: 0.42847
+Time in this step: 0.388309
+Time in this step: 0.156148
+Time in this step: 0.0735465
+Time in this step: 0.0335689
+Terminated
+Discounted return = 2.37827, average = 10.8621
+Undiscounted return = 10, average = 18.6667
+Starting run 16 with 8192 simulations... 
+Time in this step: 0.466104
+Time in this step: 0.433767
+Time in this step: 0.445792
+Time in this step: 0.425113
+Time in this step: 0.426453
+Time in this step: 0.435942
+Time in this step: 0.416151
+Time in this step: 0.393535
+Time in this step: 0.387242
+Time in this step: 0.392364
+Time in this step: 0.374625
+Time in this step: 0.356183
+Time in this step: 0.359347
+Time in this step: 0.373868
+Time in this step: 0.356857
+Time in this step: 0.351103
+Time in this step: 0.346894
+Time in this step: 0.175982
+Time in this step: 0.0896464
+Time in this step: 0.0453812
+Time in this step: 0.0232599
+Terminated
+Discounted return = 22.1868, average = 11.5699
+Undiscounted return = 40, average = 20
+Starting run 17 with 8192 simulations... 
+Time in this step: 0.443746
+Time in this step: 0.434224
+Time in this step: 0.43899
+Time in this step: 0.457416
+Time in this step: 0.452873
+Time in this step: 0.44745
+Time in this step: 0.434191
+Time in this step: 0.457198
+Time in this step: 0.462184
+Time in this step: 0.426857
+Time in this step: 0.428814
+Time in this step: 0.431407
+Time in this step: 0.407354
+Time in this step: 0.371976
+Time in this step: 0.170581
+Time in this step: 0.0642579
+Time in this step: 0.0320004
+Terminated
+Discounted return = 4.40127, average = 11.1482
+Undiscounted return = 10, average = 19.4118
+Starting run 18 with 8192 simulations... 
+Time in this step: 0.443874
+Time in this step: 0.421584
+Time in this step: 0.42811
+Time in this step: 0.421666
+Time in this step: 0.405623
+Time in this step: 0.381806
+Time in this step: 0.162469
+Time in this step: 0.0628446
+Time in this step: 0.0309109
+Terminated
+Discounted return = 6.6342, average = 10.8974
+Undiscounted return = 10, average = 18.8889
+Starting run 19 with 8192 simulations... 
+Time in this step: 0.440309
+Time in this step: 0.428796
+Time in this step: 0.429198
+Time in this step: 0.424534
+Time in this step: 0.422921
+Time in this step: 0.413856
+Time in this step: 0.396856
+Time in this step: 0.397215
+Time in this step: 0.362839
+Time in this step: 0.366188
+Time in this step: 0.353729
+Time in this step: 0.129209
+Time in this step: 0.0568078
+Time in this step: 0.0365753
+Terminated
+Discounted return = 11.4359, average = 10.9258
+Undiscounted return = 20, average = 18.9474
+Starting run 20 with 8192 simulations... 
+Time in this step: 0.456896
+Time in this step: 0.431601
+Time in this step: 0.432493
+Time in this step: 0.442482
+Time in this step: 0.427754
+Time in this step: 0.431282
+Time in this step: 0.426631
+Time in this step: 0.427797
+Time in this step: 0.447368
+Time in this step: 0.440455
+Time in this step: 0.428438
+Time in this step: 0.407352
+Time in this step: 0.427311
+Time in this step: 0.356291
+Time in this step: 0.151644
+Time in this step: 0.0810248
+Time in this step: 0.0336776
+Terminated
+Discounted return = 10.3886, average = 10.8989
+Undiscounted return = 20, average = 19
+Simulations = 8192
+Runs = 20
+Undiscounted return = 19 +- 1.56525
+Discounted return = 10.8989 +- 1.21289
+Time = 6.22822
+Starting run 1 with 16384 simulations... 
+Time in this step: 0.934627
+Time in this step: 0.875219
+Time in this step: 0.912823
+Time in this step: 0.916052
+Time in this step: 0.864182
+Time in this step: 0.820919
+Time in this step: 0.794123
+Time in this step: 0.554537
+Time in this step: 0.17807
+Time in this step: 0.0846083
+Time in this step: 0.041658
+Terminated
+Discounted return = 14.1324, average = 14.1324
+Undiscounted return = 20, average = 20
+Starting run 2 with 16384 simulations... 
+Time in this step: 0.892695
+Time in this step: 0.875093
+Time in this step: 0.876719
+Time in this step: 0.870556
+Time in this step: 0.877187
+Time in this step: 0.874213
+Time in this step: 0.879146
+Time in this step: 0.876414
+Time in this step: 0.904335
+Time in this step: 0.882651
+Time in this step: 0.906673
+Time in this step: 0.881368
+Time in this step: 0.904864
+Time in this step: 0.873655
+Time in this step: 0.839556
+Time in this step: 0.787442
+Time in this step: 0.180806
+Time in this step: 0.0831206
+Time in this step: 0.0429767
+Terminated
+Discounted return = 3.97214, average = 9.05229
+Undiscounted return = 10, average = 15
+Starting run 3 with 16384 simulations... 
+Time in this step: 0.891804
+Time in this step: 0.870839
+Time in this step: 0.913069
+Time in this step: 0.886202
+Time in this step: 0.872727
+Time in this step: 0.872751
+Time in this step: 0.881665
+Time in this step: 0.862627
+Time in this step: 0.589009
+Time in this step: 0.190935
+Time in this step: 0.0867922
+Time in this step: 0.0428747
+Terminated
+Discounted return = 5.688, average = 7.93086
+Undiscounted return = 10, average = 13.3333
+Starting run 4 with 16384 simulations... 
+Time in this step: 0.908594
+Time in this step: 0.879345
+Time in this step: 0.880213
+Time in this step: 0.870865
+Time in this step: 0.879404
+Time in this step: 0.869752
+Time in this step: 0.86562
+Time in this step: 0.829034
+Time in this step: 0.823982
+Time in this step: 0.534998
+Time in this step: 0.172408
+Time in this step: 0.0805953
+Time in this step: 0.0415194
+Terminated
+Discounted return = 12.7545, average = 9.13677
+Undiscounted return = 20, average = 15
+Starting run 5 with 16384 simulations... 
+Time in this step: 0.890202
+Time in this step: 0.865671
+Time in this step: 0.922251
+Time in this step: 0.91254
+Time in this step: 0.897681
+Time in this step: 0.898248
+Time in this step: 0.898247
+Time in this step: 0.865241
+Time in this step: 0.879447
+Time in this step: 0.865984
+Time in this step: 0.859711
+Time in this step: 0.901044
+Time in this step: 0.872787
+Time in this step: 0.85955
+Time in this step: 0.867756
+Time in this step: 0.863042
+Time in this step: 0.864602
+Time in this step: 0.893793
+Time in this step: 0.911093
+Time in this step: 0.904487
+Time in this step: 0.874964
+Time in this step: 0.888271
+Time in this step: 0.878032
+Time in this step: 0.886056
+Time in this step: 0.871303
+Time in this step: 0.881276
+Time in this step: 0.898607
+Time in this step: 0.884411
+Time in this step: 0.85637
+Time in this step: 0.831065
+Time in this step: 0.811949
+Time in this step: 0.536867
+Time in this step: 0.181365
+Time in this step: 0.090548
+Time in this step: 0.0455235
+Terminated
+Discounted return = 1.74825, average = 7.65907
+Undiscounted return = 10, average = 14
+Starting run 6 with 16384 simulations... 
+Time in this step: 0.890116
+Time in this step: 0.872703
+Time in this step: 0.881644
+Time in this step: 0.853139
+Time in this step: 0.888185
+Time in this step: 0.855594
+Time in this step: 0.838919
+Time in this step: 0.78602
+Time in this step: 0.577527
+Time in this step: 0.168401
+Time in this step: 0.0811557
+Time in this step: 0.0407993
+Terminated
+Discounted return = 13.4258, average = 8.62019
+Undiscounted return = 20, average = 15
+Starting run 7 with 16384 simulations... 
+Time in this step: 0.902696
+Time in this step: 0.876082
+Time in this step: 0.906136
+Time in this step: 0.878579
+Time in this step: 0.887949
+Time in this step: 0.880715
+Time in this step: 0.876724
+Time in this step: 0.855366
+Time in this step: 0.827884
+Time in this step: 0.610363
+Time in this step: 0.186982
+Time in this step: 0.0898599
+Time in this step: 0.0427806
+Terminated
+Discounted return = 5.4036, average = 8.16068
+Undiscounted return = 10, average = 14.2857
+Starting run 8 with 16384 simulations... 
+Time in this step: 0.892143
+Time in this step: 0.898999
+Time in this step: 0.905131
+Time in this step: 0.852266
+Time in this step: 0.817836
+Time in this step: 0.795627
+Time in this step: 0.561075
+Time in this step: 0.193001
+Time in this step: 0.0827077
+Time in this step: 0.0429567
+Terminated
+Discounted return = 14.8762, average = 9.00012
+Undiscounted return = 20, average = 15
+Starting run 9 with 16384 simulations... 
+Time in this step: 0.88388
+Time in this step: 0.881521
+Time in this step: 0.883809
+Time in this step: 0.89397
+Time in this step: 0.847746
+Time in this step: 0.821658
+Time in this step: 0.77626
+Time in this step: 0.571951
+Time in this step: 0.163947
+Time in this step: 0.0808047
+Time in this step: 0.0408975
+Terminated
+Discounted return = 14.1324, average = 9.57038
+Undiscounted return = 20, average = 15.5556
+Starting run 10 with 16384 simulations... 
+Time in this step: 0.886082
+Time in this step: 0.872143
+Time in this step: 0.878431
+Time in this step: 0.874247
+Time in this step: 0.875321
+Time in this step: 0.862618
+Time in this step: 0.859541
+Time in this step: 0.858603
+Time in this step: 0.896996
+Time in this step: 0.871164
+Time in this step: 0.861705
+Time in this step: 0.840751
+Time in this step: 0.833488
+Time in this step: 0.849375
+Time in this step: 0.791907
+Time in this step: 0.778758
+Time in this step: 0.825584
+Time in this step: 0.753883
+Time in this step: 0.736823
+Time in this step: 0.728315
+Time in this step: 0.731744
+Time in this step: 0.418875
+Time in this step: 0.165382
+Time in this step: 0.0849553
+Time in this step: 0.0450404
+Terminated
+Discounted return = 13.0092, average = 9.91426
+Undiscounted return = 30, average = 17
+Starting run 11 with 16384 simulations... 
+Time in this step: 0.937932
+Time in this step: 0.890983
+Time in this step: 0.868026
+Time in this step: 0.87999
+Time in this step: 0.870033
+Time in this step: 0.885432
+Time in this step: 0.875779
+Time in this step: 0.877583
+Time in this step: 0.894419
+Time in this step: 0.887799
+Time in this step: 0.893789
+Time in this step: 0.886893
+Time in this step: 0.865482
+Time in this step: 0.835292
+Time in this step: 0.800409
+Time in this step: 0.77175
+Time in this step: 0.461834
+Time in this step: 0.396863
+Time in this step: 0.312468
+Time in this step: 0.15914
+Time in this step: 0.0832558
+Time in this step: 0.0424996
+Terminated
+Discounted return = 12.4636, average = 10.146
+Undiscounted return = 30, average = 18.1818
+Starting run 12 with 16384 simulations... 
+Time in this step: 0.900276
+Time in this step: 0.883401
+Time in this step: 0.860939
+Time in this step: 0.872654
+Time in this step: 0.861975
+Time in this step: 0.870052
+Time in this step: 0.889604
+Time in this step: 0.877751
+Time in this step: 0.918324
+Time in this step: 0.885752
+Time in this step: 0.886968
+Time in this step: 0.873789
+Time in this step: 0.515265
+Time in this step: 0.186928
+Time in this step: 0.0921967
+Time in this step: 0.0423736
+Terminated
+Discounted return = 4.63291, average = 9.68659
+Undiscounted return = 10, average = 17.5
+Starting run 13 with 16384 simulations... 
+Time in this step: 0.922581
+Time in this step: 0.899166
+Time in this step: 0.884354
+Time in this step: 0.892899
+Time in this step: 0.902805
+Time in this step: 0.895778
+Time in this step: 0.87199
+Time in this step: 0.883686
+Time in this step: 0.83121
+Time in this step: 0.825041
+Time in this step: 0.819946
+Time in this step: 0.829101
+Time in this step: 0.782662
+Time in this step: 0.774429
+Time in this step: 0.78472
+Time in this step: 0.76464
+Time in this step: 0.466298
+Time in this step: 0.176218
+Time in this step: 0.0908285
+Time in this step: 0.0441293
+Terminated
+Discounted return = 9.76091, average = 9.69231
+Undiscounted return = 20, average = 17.6923
+Starting run 14 with 16384 simulations... 
+Time in this step: 0.893508
+Time in this step: 0.879127
+Time in this step: 0.877987
+Time in this step: 0.884767
+Time in this step: 0.896284
+Time in this step: 0.895146
+Time in this step: 0.892238
+Time in this step: 0.874615
+Time in this step: 0.883641
+Time in this step: 0.856743
+Time in this step: 0.816266
+Time in this step: 0.816635
+Time in this step: 0.798656
+Time in this step: 0.794723
+Time in this step: 0.726061
+Time in this step: 0.392625
+Time in this step: 0.331296
+Time in this step: 0.299469
+Time in this step: 0.125253
+Time in this step: 0.0749684
+Time in this step: 0.0377871
+Terminated
+Discounted return = 19.1069, average = 10.3648
+Undiscounted return = 40, average = 19.2857
+Starting run 15 with 16384 simulations... 
+Time in this step: 0.898625
+Time in this step: 0.880966
+Time in this step: 0.905393
+Time in this step: 0.882606
+Time in this step: 0.870427
+Time in this step: 0.859076
+Time in this step: 0.859269
+Time in this step: 0.842188
+Time in this step: 0.839302
+Time in this step: 0.876904
+Time in this step: 0.868653
+Time in this step: 0.882123
+Time in this step: 0.969241
+Time in this step: 0.904751
+Time in this step: 0.898753
+Time in this step: 0.872284
+Time in this step: 0.91841
+Time in this step: 0.873137
+Time in this step: 0.846621
+Time in this step: 0.838873
+Time in this step: 0.824224
+Time in this step: 0.775782
+Time in this step: 0.533944
+Time in this step: 0.188194
+Time in this step: 0.0859917
+Time in this step: 0.044886
+Terminated
+Discounted return = 6.35875, average = 10.0977
+Undiscounted return = 20, average = 19.3333
+Starting run 16 with 16384 simulations... 
+Time in this step: 0.913975
+Time in this step: 0.902218
+Time in this step: 0.873691
+Time in this step: 0.881168
+Time in this step: 0.889561
+Time in this step: 0.922711
+Time in this step: 0.92537
+Time in this step: 0.89167
+Time in this step: 0.921003
+Time in this step: 0.901253
+Time in this step: 0.893052
+Time in this step: 0.860322
+Time in this step: 0.837242
+Time in this step: 0.790519
+Time in this step: 0.502506
+Time in this step: 0.175029
+Time in this step: 0.0857772
+Time in this step: 0.0447452
+Terminated
+Discounted return = 9.8692, average = 10.0834
+Undiscounted return = 20, average = 19.375
+Starting run 17 with 16384 simulations... 
+Time in this step: 0.897849
+Time in this step: 0.893229
+Time in this step: 0.877734
+Time in this step: 0.902402
+Time in this step: 0.859153
+Time in this step: 0.877853
+Time in this step: 0.858459
+Time in this step: 0.866546
+Time in this step: 0.873844
+Time in this step: 0.876173
+Time in this step: 0.864267
+Time in this step: 0.860248
+Time in this step: 0.88048
+Time in this step: 0.886005
+Time in this step: 0.872954
+Time in this step: 0.873032
+Time in this step: 0.874008
+Time in this step: 0.863834
+Time in this step: 0.879937
+Time in this step: 0.870271
+Time in this step: 0.880014
+Time in this step: 0.876301
+Time in this step: 0.87954
+Time in this step: 0.910394
+Time in this step: 0.914615
+Time in this step: 0.913352
+Time in this step: 0.907318
+Time in this step: 0.887525
+Time in this step: 0.896038
+Time in this step: 0.88041
+Time in this step: 0.879793
+Time in this step: 0.904106
+Time in this step: 0.924217
+Time in this step: 0.892111
+Time in this step: 0.904759
+Time in this step: 0.879258
+Time in this step: 0.894609
+Time in this step: 0.922678
+Time in this step: 0.880782
+Time in this step: 0.901019
+Time in this step: 0.915271
+Time in this step: 0.903882
+Time in this step: 0.913979
+Time in this step: 0.934552
+Time in this step: 0.944112
+Time in this step: 0.870979
+Time in this step: 0.892396
+Time in this step: 0.826026
+Time in this step: 0.697841
+Time in this step: 0.334617
+Time in this step: 0.212855
+Time in this step: 0.116417
+Time in this step: 0.0598689
+Terminated
+Discounted return = 0.694428, average = 9.53113
+Undiscounted return = 10, average = 18.8235
+Starting run 18 with 16384 simulations... 
+Time in this step: 0.91804
+Time in this step: 0.880437
+Time in this step: 0.87011
+Time in this step: 0.85144
+Time in this step: 0.859563
+Time in this step: 0.81963
+Time in this step: 0.589967
+Time in this step: 0.168242
+Time in this step: 0.0866279
+Time in this step: 0.0410262
+Terminated
+Discounted return = 14.8762, average = 9.82808
+Undiscounted return = 20, average = 18.8889
+Starting run 19 with 16384 simulations... 
+Time in this step: 0.923877
+Time in this step: 0.872887
+Time in this step: 0.910808
+Time in this step: 0.86336
+Time in this step: 0.859984
+Time in this step: 0.87394
+Time in this step: 0.868115
+Time in this step: 0.843698
+Time in this step: 0.733634
+Time in this step: 0.19773
+Time in this step: 0.0850296
+Time in this step: 0.0453322
+Terminated
+Discounted return = 5.688, average = 9.61019
+Undiscounted return = 10, average = 18.4211
+Starting run 20 with 16384 simulations... 
+Time in this step: 0.924387
+Time in this step: 0.871817
+Time in this step: 0.891772
+Time in this step: 0.868701
+Time in this step: 0.893489
+Time in this step: 0.806162
+Time in this step: 0.537818
+Time in this step: 0.169565
+Time in this step: 0.0817479
+Time in this step: 0.0406117
+Terminated
+Discounted return = 14.8762, average = 9.87349
+Undiscounted return = 20, average = 18.5
+Simulations = 16384
+Runs = 20
+Undiscounted return = 18.5 +- 1.7713
+Discounted return = 9.87349 +- 1.1336
+Time = 13.4966
+Starting run 1 with 32768 simulations... 
+Time in this step: 1.79722
+Time in this step: 1.86061
+Time in this step: 1.86159
+Time in this step: 1.7374
+Time in this step: 1.72856
+Time in this step: 1.58492
+Time in this step: 0.622543
+Time in this step: 0.221188
+Time in this step: 0.140918
+Time in this step: 0.0612174
+Terminated
+Discounted return = 14.8762, average = 14.8762
+Undiscounted return = 20, average = 20
+Starting run 2 with 32768 simulations... 
+Time in this step: 1.81556
+Time in this step: 1.82506
+Time in this step: 1.78724
+Time in this step: 1.76008
+Time in this step: 1.74704
+Time in this step: 1.6958
+Time in this step: 1.64899
+Time in this step: 1.54229
+Time in this step: 0.564958
+Time in this step: 0.551029
+Time in this step: 0.478849
+Time in this step: 0.191961
+Time in this step: 0.117902
+Time in this step: 0.0643962
+Terminated
+Discounted return = 18.7868, average = 16.8315
+Undiscounted return = 30, average = 25
+Starting run 3 with 32768 simulations... 
+Time in this step: 1.82007
+Time in this step: 1.81125
+Time in this step: 1.78258
+Time in this step: 1.71581
+Time in this step: 1.67429
+Time in this step: 1.60477
+Time in this step: 0.621117
+Time in this step: 0.221139
+Time in this step: 0.117928
+Time in this step: 0.0619696
+Terminated
+Discounted return = 14.8762, average = 16.1798
+Undiscounted return = 20, average = 23.3333
+Starting run 4 with 32768 simulations... 
+Time in this step: 1.79171
+Time in this step: 1.81043
+Time in this step: 1.81696
+Time in this step: 1.76164
+Time in this step: 1.77744
+Time in this step: 1.79913
+Time in this step: 1.86269
+Time in this step: 1.78583
+Time in this step: 1.83342
+Time in this step: 1.78967
+Time in this step: 1.72651
+Time in this step: 1.71099
+Time in this step: 0.554177
+Time in this step: 0.241878
+Time in this step: 0.135646
+Time in this step: 0.0662545
+Terminated
+Discounted return = 4.63291, average = 13.2931
+Undiscounted return = 10, average = 20
+Starting run 5 with 32768 simulations... 
+Time in this step: 1.79796
+Time in this step: 1.84019
+Time in this step: 1.7819
+Time in this step: 1.78971
+Time in this step: 1.82817
+Time in this step: 1.84601
+Time in this step: 1.78345
+Time in this step: 1.83957
+Time in this step: 1.77626
+Time in this step: 1.75995
+Time in this step: 1.78276
+Time in this step: 1.73266
+Time in this step: 1.14048
+Time in this step: 1.67201
+Time in this step: 1.58009
+Time in this step: 1.09484
+Time in this step: 0.898725
+Time in this step: 0.898918
+Time in this step: 0.467445
+Time in this step: 0.394139
+Time in this step: 0.186718
+Time in this step: 0.121316
+Time in this step: 0.0648976
+Terminated
+Discounted return = 16.7422, average = 13.9829
+Undiscounted return = 40, average = 24
+Starting run 6 with 32768 simulations... 
+Time in this step: 1.84577
+Time in this step: 1.85445
+Time in this step: 1.78497
+Time in this step: 1.81985
+Time in this step: 1.83299
+Time in this step: 1.82107
+Time in this step: 1.86011
+Time in this step: 1.79658
+Time in this step: 1.67653
+Time in this step: 1.65912
+Time in this step: 1.57688
+Time in this step: 0.756096
+Time in this step: 0.930403
+Time in this step: 0.739807
+Time in this step: 0.434007
+Time in this step: 0.322799
+Time in this step: 0.255263
+Time in this step: 0.189153
+Time in this step: 0.142316
+Time in this step: 0.113324
+Time in this step: 0.0616568
+Terminated
+Discounted return = 14.4316, average = 14.0577
+Undiscounted return = 30, average = 25
+Starting run 7 with 32768 simulations... 
+Time in this step: 1.80385
+Time in this step: 1.79066
+Time in this step: 1.76871
+Time in this step: 1.72791
+Time in this step: 1.64896
+Time in this step: 1.59418
+Time in this step: 0.598824
+Time in this step: 0.224073
+Time in this step: 0.120576
+Time in this step: 0.0603812
+Terminated
+Discounted return = 14.8762, average = 14.1746
+Undiscounted return = 20, average = 24.2857
+Starting run 8 with 32768 simulations... 
+Time in this step: 1.83973
+Time in this step: 1.78386
+Time in this step: 1.7813
+Time in this step: 1.74724
+Time in this step: 1.75467
+Time in this step: 1.7609
+Time in this step: 1.76368
+Time in this step: 1.74369
+Time in this step: 1.68134
+Time in this step: 1.67746
+Time in this step: 1.56704
+Time in this step: 1.60891
+Time in this step: 1.55112
+Time in this step: 1.44685
+Time in this step: 0.480999
+Time in this step: 0.209009
+Time in this step: 0.126833
+Time in this step: 0.064084
+Terminated
+Discounted return = 10.4837, average = 13.7132
+Undiscounted return = 20, average = 23.75
+Starting run 9 with 32768 simulations... 
+Time in this step: 1.78313
+Time in this step: 1.75873
+Time in this step: 1.82966
+Time in this step: 1.8132
+Time in this step: 1.75089
+Time in this step: 1.79979
+Time in this step: 1.78531
+Time in this step: 1.77754
+Time in this step: 1.81406
+Time in this step: 1.7836
+Time in this step: 1.81466
+Time in this step: 1.76059
+Time in this step: 1.68725
+Time in this step: 0.697264
+Time in this step: 0.236705
+Time in this step: 0.130996
+Time in this step: 0.0672648
+Terminated
+Discounted return = 4.40127, average = 12.6786
+Undiscounted return = 10, average = 22.2222
+Starting run 10 with 32768 simulations... 
+Time in this step: 1.81864
+Time in this step: 1.81513
+Time in this step: 1.75795
+Time in this step: 1.77384
+Time in this step: 1.79661
+Time in this step: 1.73307
+Time in this step: 1.71279
+Time in this step: 1.74673
+Time in this step: 1.733
+Time in this step: 1.79408
+Time in this step: 1.74125
+Time in this step: 1.74292
+Time in this step: 1.75055
+Time in this step: 1.58952
+Time in this step: 0.737661
+Time in this step: 0.66428
+Time in this step: 0.546899
+Time in this step: 0.39944
+Time in this step: 0.355909
+Time in this step: 0.218895
+Time in this step: 0.1795
+Time in this step: 0.125747
+Time in this step: 0.0562005
+Terminated
+Discounted return = 11.8404, average = 12.5948
+Undiscounted return = 30, average = 23
+Starting run 11 with 32768 simulations... 
+Time in this step: 1.79053
+Time in this step: 1.81117
+Time in this step: 1.74851
+Time in this step: 1.70269
+Time in this step: 1.68001
+Time in this step: 1.60956
+Time in this step: 0.647843
+Time in this step: 0.228595
+Time in this step: 0.122179
+Time in this step: 0.0670678
+Terminated
+Discounted return = 14.8762, average = 12.8022
+Undiscounted return = 20, average = 22.7273
+Starting run 12 with 32768 simulations... 
+Time in this step: 1.81648
+Time in this step: 1.76778
+Time in this step: 1.82508
+Time in this step: 1.77653
+Time in this step: 1.75358
+Time in this step: 1.68767
+Time in this step: 1.62394
+Time in this step: 0.662882
+Time in this step: 0.212274
+Time in this step: 0.1209
+Time in this step: 0.064109
+Terminated
+Discounted return = 14.1324, average = 12.913
+Undiscounted return = 20, average = 22.5
+Starting run 13 with 32768 simulations... 
+Time in this step: 1.78009
+Time in this step: 1.83712
+Time in this step: 1.78832
+Time in this step: 1.77423
+Time in this step: 1.777
+Time in this step: 1.77252
+Time in this step: 1.81402
+Time in this step: 1.81283
+Time in this step: 1.7879
+Time in this step: 1.78806
+Time in this step: 1.78173
+Time in this step: 1.75284
+Time in this step: 1.66983
+Time in this step: 0.843099
+Time in this step: 0.246737
+Time in this step: 0.122025
+Time in this step: 0.0645565
+Terminated
+Discounted return = 4.40127, average = 12.2583
+Undiscounted return = 10, average = 21.5385
+Starting run 14 with 32768 simulations... 
+Time in this step: 1.78282
+Time in this step: 1.83671
+Time in this step: 1.75991
+Time in this step: 1.75339
+Time in this step: 1.78744
+Time in this step: 1.79727
+Time in this step: 1.77222
+Time in this step: 1.76881
+Time in this step: 1.74954
+Time in this step: 1.79681
+Time in this step: 1.7413
+Time in this step: 1.72031
+Time in this step: 1.73628
+Time in this step: 1.69706
+Time in this step: 1.63922
+Time in this step: 1.61325
+Time in this step: 1.58302
+Time in this step: 1.56781
+Time in this step: 1.54388
+Time in this step: 1.26421
+Time in this step: 0.424787
+Time in this step: 0.397031
+Time in this step: 0.214048
+Time in this step: 0.128245
+Time in this step: 0.0697649
+Terminated
+Discounted return = 12.4546, average = 12.2723
+Undiscounted return = 30, average = 22.1429
+Starting run 15 with 32768 simulations... 
+Time in this step: 1.79867
+Time in this step: 1.81973
+Time in this step: 1.77389
+Time in this step: 1.7862
+Time in this step: 1.77506
+Time in this step: 1.7705
+Time in this step: 1.82563
+Time in this step: 1.84783
+Time in this step: 1.76233
+Time in this step: 1.74398
+Time in this step: 1.74769
+Time in this step: 1.59207
+Time in this step: 0.577216
+Time in this step: 0.220803
+Time in this step: 0.124569
+Time in this step: 0.0649125
+Terminated
+Discounted return = 10.9354, average = 12.1832
+Undiscounted return = 20, average = 22
+Starting run 16 with 32768 simulations... 
+Time in this step: 1.89966
+Time in this step: 1.77657
+Time in this step: 1.79574
+Time in this step: 1.75872
+Time in this step: 1.72325
+Time in this step: 1.65218
+Time in this step: 1.56515
+Time in this step: 0.580354
+Time in this step: 0.217889
+Time in this step: 0.122188
+Time in this step: 0.0700678
+Terminated
+Discounted return = 14.1324, average = 12.305
+Undiscounted return = 20, average = 21.875
+Starting run 17 with 32768 simulations... 
+Time in this step: 1.78675
+Time in this step: 1.81628
+Time in this step: 1.8029
+Time in this step: 1.72582
+Time in this step: 1.65971
+Time in this step: 1.60155
+Time in this step: 0.659719
+Time in this step: 0.22726
+Time in this step: 0.120706
+Time in this step: 0.0637162
+Terminated
+Discounted return = 14.8762, average = 12.4562
+Undiscounted return = 20, average = 21.7647
+Starting run 18 with 32768 simulations... 
+Time in this step: 1.85802
+Time in this step: 1.86643
+Time in this step: 1.82997
+Time in this step: 1.71986
+Time in this step: 1.70213
+Time in this step: 1.63194
+Time in this step: 0.571568
+Time in this step: 0.22276
+Time in this step: 0.134191
+Time in this step: 0.0639899
+Terminated
+Discounted return = 14.8762, average = 12.5907
+Undiscounted return = 20, average = 21.6667
+Starting run 19 with 32768 simulations... 
+Time in this step: 1.79368
+Time in this step: 1.82555
+Time in this step: 1.79053
+Time in this step: 1.75392
+Time in this step: 1.69072
+Time in this step: 1.59637
+Time in this step: 0.58654
+Time in this step: 0.237288
+Time in this step: 0.125514
+Time in this step: 0.0673347
+Terminated
+Discounted return = 14.8762, average = 12.711
+Undiscounted return = 20, average = 21.5789
+Starting run 20 with 32768 simulations... 
+Time in this step: 1.82761
+Time in this step: 1.87273
+Time in this step: 1.81435
+Time in this step: 1.78202
+Time in this step: 1.68884
+Time in this step: 1.58906
+Time in this step: 0.609199
+Time in this step: 0.211934
+Time in this step: 0.119904
+Time in this step: 0.0629297
+Terminated
+Discounted return = 14.8762, average = 12.8192
+Undiscounted return = 20, average = 21.5
+Simulations = 32768
+Runs = 20
+Undiscounted return = 21.5 +- 1.62404
+Discounted return = 12.8192 +- 0.879965
+Time = 18.7182
+Starting run 1 with 65536 simulations... 
+Time in this step: 3.68968
+Time in this step: 3.57117
+Time in this step: 3.58164
+Time in this step: 3.575
+Time in this step: 3.56559
+Time in this step: 3.59463
+Time in this step: 3.58459
+Time in this step: 3.52253
+Time in this step: 3.53673
+Time in this step: 3.58528
+Time in this step: 3.52728
+Time in this step: 3.43226
+Time in this step: 1.3102
+Time in this step: 0.62484
+Time in this step: 0.330996
+Time in this step: 0.20545
+Time in this step: 0.11115
+Terminated
+Discounted return = 4.40127, average = 4.40127
+Undiscounted return = 10, average = 10
+Starting run 2 with 65536 simulations... 
+Time in this step: 3.63449
+Time in this step: 3.60242
+Time in this step: 3.58744
+Time in this step: 3.52437
+Time in this step: 3.57171
+Time in this step: 3.61118
+Time in this step: 3.57945
+Time in this step: 3.58603
+Time in this step: 3.59513
+Time in this step: 3.50606
+Time in this step: 2.99324
+Time in this step: 0.748818
+Time in this step: 0.343597
+Time in this step: 0.214053
+Time in this step: 0.109643
+Terminated
+Discounted return = 4.87675, average = 4.63901
+Undiscounted return = 10, average = 10
+Starting run 3 with 65536 simulations... 
+Time in this step: 3.65766
+Time in this step: 3.64435
+Time in this step: 3.61495
+Time in this step: 3.63111
+Time in this step: 3.61089
+Time in this step: 3.60298
+Time in this step: 3.55596
+Time in this step: 3.58203
+Time in this step: 3.35982
+Time in this step: 3.40061
+Time in this step: 3.18617
+Time in this step: 2.45815
+Time in this step: 2.34816
+Time in this step: 2.13055
+Time in this step: 1.51146
+Time in this step: 0.480408
+Time in this step: 0.303258
+Time in this step: 0.212468
+Time in this step: 0.111366
+Terminated
+Discounted return = 15.6782, average = 8.31875
+Undiscounted return = 30, average = 16.6667
+Starting run 4 with 65536 simulations... 
+Time in this step: 3.62046
+Time in this step: 3.55172
+Time in this step: 3.69991
+Time in this step: 3.66951
+Time in this step: 3.61172
+Time in this step: 3.58013
+Time in this step: 3.6391
+Time in this step: 3.67466
+Time in this step: 3.70819
+Time in this step: 3.63465
+Time in this step: 3.59118
+Time in this step: 2.48551
+Time in this step: 0.885886
+Time in this step: 0.355717
+Time in this step: 0.230535
+Time in this step: 0.136473
+Terminated
+Discounted return = 4.63291, average = 7.39729
+Undiscounted return = 10, average = 15
+Starting run 5 with 65536 simulations... 
+Time in this step: 3.69127
+Time in this step: 3.66157
+Time in this step: 3.59321
+Time in this step: 3.51628
+Time in this step: 3.43542
+Time in this step: 2.76602
+Time in this step: 0.708087
+Time in this step: 0.314657
+Time in this step: 0.201237
+Time in this step: 0.107497
+Terminated
+Discounted return = 14.8762, average = 8.89308
+Undiscounted return = 20, average = 16
+Starting run 6 with 65536 simulations... 
+Time in this step: 3.68288
+Time in this step: 3.71691
+Time in this step: 3.60547
+Time in this step: 3.57975
+Time in this step: 3.40329
+Time in this step: 2.8188
+Time in this step: 0.73094
+Time in this step: 0.323093
+Time in this step: 0.196602
+Time in this step: 0.103694
+Terminated
+Discounted return = 14.8762, average = 9.89028
+Undiscounted return = 20, average = 16.6667
+Starting run 7 with 65536 simulations... 
+Time in this step: 3.68933
+Time in this step: 3.6456
+Time in this step: 3.58348
+Time in this step: 3.4649
+Time in this step: 3.41362
+Time in this step: 2.62641
+Time in this step: 0.730315
+Time in this step: 0.327557
+Time in this step: 0.199023
+Time in this step: 0.102247
+Terminated
+Discounted return = 14.8762, average = 10.6026
+Undiscounted return = 20, average = 17.1429
+Starting run 8 with 65536 simulations... 
+Time in this step: 3.71594
+Time in this step: 3.72618
+Time in this step: 3.66877
+Time in this step: 3.5862
+Time in this step: 3.38127
+Time in this step: 2.76181
+Time in this step: 0.770077
+Time in this step: 0.323964
+Time in this step: 0.203015
+Time in this step: 0.101028
+Terminated
+Discounted return = 14.8762, average = 11.1368
+Undiscounted return = 20, average = 17.5
+Starting run 9 with 65536 simulations... 
+Time in this step: 3.64557
+Time in this step: 3.63478
+Time in this step: 3.58963
+Time in this step: 3.60938
+Time in this step: 3.61744
+Time in this step: 3.58882
+Time in this step: 3.60268
+Time in this step: 3.52924
+Time in this step: 3.62116
+Time in this step: 3.37282
+Time in this step: 3.35026
+Time in this step: 3.17638
+Time in this step: 2.44425
+Time in this step: 2.34762
+Time in this step: 2.19327
+Time in this step: 0.691997
+Time in this step: 0.59585
+Time in this step: 0.536526
+Time in this step: 0.301667
+Time in this step: 0.209483
+Time in this step: 0.11126
+Terminated
+Discounted return = 7.13218, average = 10.6918
+Undiscounted return = 20, average = 17.7778
+Starting run 10 with 65536 simulations... 
+Time in this step: 3.62997
+Time in this step: 3.73337
+Time in this step: 3.60724
+Time in this step: 3.54204
+Time in this step: 3.45032
+Time in this step: 2.56005
+Time in this step: 0.775944
+Time in this step: 0.327727
+Time in this step: 0.200689
+Time in this step: 0.103118
+Terminated
+Discounted return = 14.8762, average = 11.1103
+Undiscounted return = 20, average = 18
+Starting run 11 with 65536 simulations... 
+Time in this step: 3.70635
+Time in this step: 3.6205
+Time in this step: 3.67034
+Time in this step: 3.62956
+Time in this step: 3.59441
+Time in this step: 3.60451
+Time in this step: 3.53617
+Time in this step: 3.59054
+Time in this step: 3.66064
+Time in this step: 3.5836
+Time in this step: 3.55694
+Time in this step: 3.58607
+Time in this step: 3.62907
+Time in this step: 3.65551
+Time in this step: 3.60046
+Time in this step: 3.61613
+Time in this step: 3.61393
+Time in this step: 3.68851
+Time in this step: 3.66437
+Time in this step: 3.69632
+Time in this step: 3.69518
+Time in this step: 3.69074
+Time in this step: 3.66981
+Time in this step: 3.64806
+Time in this step: 3.73682
+Time in this step: 3.7247
+Time in this step: 3.73686
+Time in this step: 3.70116
+Time in this step: 3.73753
+Time in this step: 3.80788
+Time in this step: 3.72204
+Time in this step: 3.71076
+Time in this step: 3.76537
+Time in this step: 3.69747
+Time in this step: 3.74645
+Time in this step: 3.78314
+Time in this step: 3.73547
+Time in this step: 3.76847
+Time in this step: 3.71402
+Time in this step: 3.76584
+Time in this step: 3.75966
+Time in this step: 3.7306
+Time in this step: 3.7819
+Time in this step: 3.83184
+Time in this step: 3.71736
+Time in this step: 3.72485
+Time in this step: 3.80649
+Time in this step: 3.76628
+Time in this step: 3.76551
+Time in this step: 3.81143
+Time in this step: 3.88159
+Time in this step: 3.80372
+Time in this step: 3.82294
+Time in this step: 3.81874
+Time in this step: 3.87061
+Time in this step: 3.86849
+Time in this step: 3.83449
+Time in this step: 3.75619
+Time in this step: 3.81393
+Time in this step: 1.64282
+Time in this step: 1.05883
+Time in this step: 0.506331
+Time in this step: 0.334918
+Time in this step: 0.179107
+Terminated
+Discounted return = 0.394991, average = 10.1361
+Undiscounted return = 10, average = 17.2727
+Starting run 12 with 65536 simulations... 
+Time in this step: 3.66566
+Time in this step: 3.65454
+Time in this step: 3.56734
+Time in this step: 3.619
+Time in this step: 3.61566
+Time in this step: 3.64679
+Time in this step: 3.5416
+Time in this step: 2.9636
+Time in this step: 3.46281
+Time in this step: 2.66435
+Time in this step: 3.07334
+Time in this step: 2.44948
+Time in this step: 0.741877
+Time in this step: 0.620167
+Time in this step: 0.545452
+Time in this step: 0.309561
+Time in this step: 0.215014
+Time in this step: 0.110251
+Terminated
+Discounted return = 15.6171, average = 10.5929
+Undiscounted return = 30, average = 18.3333
+Starting run 13 with 65536 simulations... 
+Time in this step: 3.66148
+Time in this step: 3.6113
+Time in this step: 3.63475
+Time in this step: 3.5797
+Time in this step: 3.59405
+Time in this step: 3.5951
+Time in this step: 3.52563
+Time in this step: 3.48273
+Time in this step: 2.78414
+Time in this step: 0.729987
+Time in this step: 0.327711
+Time in this step: 0.203933
+Time in this step: 0.107691
+Terminated
+Discounted return = 12.7545, average = 10.7592
+Undiscounted return = 20, average = 18.4615
+Starting run 14 with 65536 simulations... 
+Time in this step: 3.66778
+Time in this step: 3.6495
+Time in this step: 3.58354
+Time in this step: 3.60173
+Time in this step: 3.62763
+Time in this step: 3.57318
+Time in this step: 3.61024
+Time in this step: 3.63472
+Time in this step: 3.52685
+Time in this step: 3.5282
+Time in this step: 3.45566
+Time in this step: 3.34251
+Time in this step: 3.2578
+Time in this step: 1.99136
+Time in this step: 0.782229
+Time in this step: 0.317405
+Time in this step: 0.31443
+Time in this step: 0.195406
+Time in this step: 0.200698
+Time in this step: 0.110336
+Terminated
+Discounted return = 13.4337, average = 10.9502
+Undiscounted return = 30, average = 19.2857
+Starting run 15 with 65536 simulations... 
+Time in this step: 3.67496
+Time in this step: 3.63684
+Time in this step: 3.60448
+Time in this step: 3.68377
+Time in this step: 3.60892
+Time in this step: 3.6053
+Time in this step: 2.97009
+Time in this step: 2.60835
+Time in this step: 3.29508
+Time in this step: 3.04528
+Time in this step: 3.29705
+Time in this step: 3.04587
+Time in this step: 2.61594
+Time in this step: 0.712682
+Time in this step: 0.390469
+Time in this step: 0.220713
+Time in this step: 0.230718
+Time in this step: 0.194854
+Time in this step: 0.108503
+Terminated
+Discounted return = 20.4756, average = 11.5852
+Undiscounted return = 40, average = 20.6667
+Starting run 16 with 65536 simulations... 
+Time in this step: 3.64184
+Time in this step: 3.6584
+Time in this step: 3.63421
+Time in this step: 3.52514
+Time in this step: 3.36837
+Time in this step: 2.59211
+Time in this step: 0.711271
+Time in this step: 0.335172
+Time in this step: 0.197504
+Time in this step: 0.102314
+Terminated
+Discounted return = 14.8762, average = 11.7909
+Undiscounted return = 20, average = 20.625
+Starting run 17 with 65536 simulations... 
+Time in this step: 3.66091
+Time in this step: 3.7034
+Time in this step: 3.57908
+Time in this step: 3.53345
+Time in this step: 3.40791
+Time in this step: 2.62104
+Time in this step: 0.668447
+Time in this step: 0.317328
+Time in this step: 0.194604
+Time in this step: 0.101655
+Terminated
+Discounted return = 14.8762, average = 11.9724
+Undiscounted return = 20, average = 20.5882
+Starting run 18 with 65536 simulations... 
+Time in this step: 3.64832
+Time in this step: 3.57318
+Time in this step: 3.55781
+Time in this step: 3.59376
+Time in this step: 3.6153
+Time in this step: 3.6157
+Time in this step: 3.62383
+Time in this step: 3.65492
+Time in this step: 3.7833
+Time in this step: 3.62306
+Time in this step: 3.61918
+Time in this step: 3.60685
+Time in this step: 3.64015
+Time in this step: 3.64565
+Time in this step: 3.5318
+Time in this step: 3.44624
+Time in this step: 0.887225
+Time in this step: 0.361941
+Time in this step: 0.216278
+Time in this step: 0.113537
+Terminated
+Discounted return = 3.77354, average = 11.5169
+Undiscounted return = 10, average = 20
+Starting run 19 with 65536 simulations... 
+Time in this step: 3.73215
+Time in this step: 3.60142
+Time in this step: 3.66931
+Time in this step: 3.58821
+Time in this step: 3.62858
+Time in this step: 3.57528
+Time in this step: 3.66596
+Time in this step: 3.60374
+Time in this step: 3.63495
+Time in this step: 3.68056
+Time in this step: 3.57996
+Time in this step: 3.58653
+Time in this step: 3.64809
+Time in this step: 3.82298
+Time in this step: 3.75365
+Time in this step: 3.75808
+Time in this step: 3.92314
+Time in this step: 3.69968
+Time in this step: 3.7474
+Time in this step: 3.89085
+Time in this step: 3.74357
+Time in this step: 3.75933
+Time in this step: 3.64928
+Time in this step: 3.73057
+Time in this step: 3.39161
+Time in this step: 3.31155
+Time in this step: 2.25084
+Time in this step: 1.21561
+Time in this step: 0.606664
+Time in this step: 0.374273
+Time in this step: 0.251023
+Time in this step: 0.150095
+Terminated
+Discounted return = 4.81296, average = 11.1641
+Undiscounted return = 20, average = 20
+Starting run 20 with 65536 simulations... 
+Time in this step: 3.96255
+Time in this step: 3.83479
+Time in this step: 3.71423
+Time in this step: 3.63819
+Time in this step: 3.65802
+Time in this step: 3.64832
+Time in this step: 3.62396
+Time in this step: 3.50558
+Time in this step: 3.42045
+Time in this step: 3.4551
+Time in this step: 3.3921
+Time in this step: 3.13
+Time in this step: 1.53579
+Time in this step: 1.36229
+Time in this step: 0.654985
+Time in this step: 0.352982
+Time in this step: 0.215185
+Time in this step: 0.115905
+Terminated
+Discounted return = 10.1686, average = 11.1143
+Undiscounted return = 20, average = 20
+Simulations = 65536
+Runs = 20
+Undiscounted return = 20 +- 1.73205
+Discounted return = 11.1143 +- 1.21151
+Time = 49.9147
