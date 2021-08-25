@@ -6,14 +6,14 @@
 #include "coord.h"
 #include <list>
 
-
+// NOTE: Very preliminary, there are definitely places for improvement! 
 class FINDIT_STATE : public STATE {
 public: 
     struct CELL {
         bool occupied;
         bool visited;
-        double likelihood_hit;
-        double likelihood_miss;
+        double likelihood_hit; // used for calculation of probability_obj_here
+        double likelihood_miss; // used for calculation of probability_obj_here
         double probability_obj_here;
     };
 
@@ -61,8 +61,6 @@ protected:
     enum {
         PICK_UP = 0
     };
-
-    // int Listen(const FINDIT_STATE& fi_state) const;
     
 private: 
     mutable MEMORY_POOL<FINDIT_STATE> MemoryPool;

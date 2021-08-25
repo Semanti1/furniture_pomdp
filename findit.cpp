@@ -3,6 +3,9 @@
 using namespace std;
 using namespace UTILS;
 
+// NOTE: Very preliminary, currently, there isn't much "intelligence" (aka, we're not currently really 
+// using the statistic that keeps track of the probability that the object is here--class variable for FINDIT_STATE)
+
 FINDIT::FINDIT(int xsize, int ysize)
 :   sensor_uncertainty(0.10),
     board_size(xsize)
