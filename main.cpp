@@ -4,6 +4,7 @@
 #include "pocman.h"
 #include "rocksample.h"
 #include "tag.h"
+#include "findit.h"
 #include "experiment.h"
 #include <boost/program_options.hpp>
 
@@ -121,6 +122,11 @@ int main(int argc, char* argv[])
     {
         real = new TAG(number);
         simulator = new TAG(number);
+    }
+    else if (problem == "findit")
+    {
+        real = new FINDIT(size, number);
+        simulator = new FINDIT(size, number);
     }
     else 
     {
