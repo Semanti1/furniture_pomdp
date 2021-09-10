@@ -124,7 +124,7 @@ void EXPERIMENT::Run()
             if (SearchParams.Verbose >= 1)
             {
                 Real.DisplayAction(action, cout);
-                Real.DisplayState(*state, cout);
+                //Real.DisplayState(*state, cout);
                 Real.DisplayObservation(*state, observation, cout);
                 Real.DisplayReward(reward, cout);
             }

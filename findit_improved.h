@@ -1,5 +1,5 @@
-#ifndef FINDIT_H
-#define FINDIT_H
+#ifndef FINDIT_IMPROVED_H
+#define FINDIT_IMPROVED_H
 #include <tuple>
 #include "simulator.h"
 #include "grid.h"
@@ -7,32 +7,32 @@
 #include <list>
 
 // NOTE: Very preliminary, there are definitely places for improvement! 
-class FINDIT_STATE : public STATE {
+class FINDIT_IMPROVED_STATE : public STATE {
 public: 
-    /*struct CELL {
-        bool occupied;
-        bool visited;
-        double likelihood_hit; // used for calculation of probability_obj_here
-        double likelihood_miss; // used for calculation of probability_obj_here
-        double probability_obj_here;
+    struct CELL {
+       // bool occupied;
+        bool Visited;
+        //double likelihood_hit; // used for calculation of probability_obj_here
+        //double likelihood_miss; // used for calculation of probability_obj_here
+        //double probability_obj_here;
     };
 
-    GRID<CELL> positions;*/
+    GRID<CELL> positions;
     /*COORD object_position;
     COORD agent_position;*/
     std::tuple<int, int, int> object_position;
     std::tuple<int, int, int> agent_position;
     bool foundit;
-    int orientation_r;
-    int orientation_o;
-    bool oriented;
+    //int orientation_r;
+    //int orientation_o;
+    //bool oriented;
 
 };
 
 
-class FINDIT : public SIMULATOR {
+class FINDIT_IMPROVED : public SIMULATOR {
 public:
-    FINDIT(int xsize, int ysize);
+    FINDIT_IMPROVED(int xsize, int ysize);
     virtual STATE* Copy(const STATE& state) const;
     virtual void Validate(const STATE& state) const;
     virtual STATE* CreateStartState() const;
@@ -61,25 +61,25 @@ protected:
     enum {
         OBS_HIT = 0, 
         OBS_MISS = 1, 
-        OBS_NONE = 2
+     //   OBS_NONE = 2
     };
 
     // Extra actions (apart from the coordinate ones)
-    enum {
+   /* enum {
         MOVE_EAST = 0,
         MOVE_WEST = 1,
         MOVE_NORTH = 2,
-        MOVE_SOUTH = 3,
+        MOVE_SOUTH = 3,*/
       //  LOOK = 4,
         //FOUND = 4,
         //ORIENT = 5,
         //ORIENT_DONE = 6,
         //DONE = 7
         //PICK_UP = 0
-    };
+  //  };
     
 private: 
-    mutable MEMORY_POOL<FINDIT_STATE> MemoryPool;
+    mutable MEMORY_POOL<FINDIT_IMPROVED_STATE> MemoryPool;
     //int AgentPosToAction(COORD agent_pos) const;
 
     // COORD object_position;
