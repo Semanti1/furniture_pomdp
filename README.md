@@ -9,9 +9,15 @@ To run (sample command):
 Descriptions:
 
 --furniture - furniture name
+
 --number - number of parts in the furniture
+
 --causal - true if using causal graph, false otherwise
+
 --disabletree - 0 if using POMCP, 1 if using RolloutSearch
+
 --runs - number of runs per # of simulations, reward will be the average across all runs
+
 --mindoubles - minimum # of simulations in the experiment
+
 --maxdoubles - maximum # of simulations in the experiment.
