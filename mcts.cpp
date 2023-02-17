@@ -11,7 +11,8 @@ using namespace UTILS;
 
 MCTS::PARAMS::PARAMS()
 :   Verbose(0),
-    MaxDepth(100),
+    //MaxDepth(100),
+    MaxDepth(2),
     NumSimulations(1000),
     NumStartStates(1000),
     UseTransforms(true),
@@ -42,6 +43,7 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
 
 MCTS::~MCTS()
 {
+    cout << "in destructor";
     VNODE::Free(Root, Simulator);
     VNODE::FreeAll();
 }
@@ -103,6 +105,7 @@ int MCTS::SelectAction()
 
 void MCTS::RolloutSearch()
 {
+    //cout << "in rolloutsearch" << endl;
 	std::vector<double> totals(Simulator.GetNumActions(), 0.0);
 	int historyDepth = History.Size();
 	std::vector<int> legal;
@@ -141,7 +144,7 @@ void MCTS::UCTSearch()
 {
     ClearStatistics();
     int historyDepth = History.Size();
-
+    //cout << "Starting simulations " << Root->Beliefs().GetNumSamples() << endl;
     for (int n = 0; n < Params.NumSimulations; n++)
     {
         STATE* state = Root->Beliefs().CreateSample(Simulator);
@@ -324,11 +327,12 @@ double MCTS::Rollout(STATE& state)
     double discount = 1.0;
     bool terminal = false;
     int numSteps;
+    //cout << "in rollout " << endl;
     for (numSteps = 0; numSteps + TreeDepth < Params.MaxDepth && !terminal; ++numSteps)
     {
         int observation;
         double reward;
-
+        //cout << "in rollout " << numSteps <<  endl;
         int action = Simulator.SelectRandom(state, History, Status);
         terminal = Simulator.Step(state, action, observation, reward);
         History.Add(action, observation);

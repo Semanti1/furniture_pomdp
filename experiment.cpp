@@ -8,7 +8,7 @@ EXPERIMENT::PARAMS::PARAMS()
 :   NumRuns(1000),
     NumSteps(100000),
     SimSteps(1000),
-    TimeOut(3600),
+    TimeOut(10000),
     MinDoubles(0),
     MaxDoubles(20),
     TransformDoubles(-4),
@@ -45,7 +45,7 @@ void EXPERIMENT::Run()
     std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
 
     MCTS mcts(Simulator, SearchParams);
-
+    //MCTS::InitFastUCB(SearchParams.ExplorationConstant);
     double undiscountedReturn = 0.0;
     double discountedReturn = 0.0;
     double discount = 1.0;
@@ -53,7 +53,10 @@ void EXPERIMENT::Run()
     bool outOfParticles = false;
     int t;
 
-    STATE* state = Real.CreateStartState();
+    STATE* state = Real.CreateStartStateReal(1);
+    //cout << "real state before run " << mcts.Root endl;
+    //Real.DisplayState(*state, cout);
+    //cout << "Done display" << endl;
     if (SearchParams.Verbose >= 1)
         Real.DisplayState(*state, cout);
 
@@ -67,8 +70,12 @@ void EXPERIMENT::Run()
         std::chrono::high_resolution_clock::time_point t2b = std::chrono::high_resolution_clock::now();
         std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2b - t2);
         cout << "Time in this step: " << time_span.count() << endl;
+       
+        //cout << "action " << endl;
+        Real.DisplayAction(action, cout);
         terminal = Real.Step(*state, action, observation, reward);
-
+        //cout << "state " << endl;
+        //Real.DisplayState(*state, cout);
         Results.Reward.Add(reward);
         undiscountedReturn += reward;
         discountedReturn += reward * discount;
@@ -171,7 +178,7 @@ void EXPERIMENT::DiscountedReturn()
     cout << "Main runs" << endl;
     OutputFile << "Simulations\tRuns\tUndiscounted return\tUndiscounted error\tDiscounted return\tDiscounted error\tTime\n";
 
-    SearchParams.MaxDepth = Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
+    SearchParams.MaxDepth =  Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
     ExpParams.SimSteps = Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
     ExpParams.NumSteps = Real.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
 

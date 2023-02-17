@@ -4,6 +4,7 @@
 #include "pocman.h"
 #include "rocksample.h"
 #include "tag.h"
+#include "causal_furniture.h"
 #include "findit.h"
 #include "findit_improved.h"
 #include "experiment.h"
@@ -37,10 +38,10 @@ int main(int argc, char* argv[])
     MCTS::PARAMS searchParams;
     EXPERIMENT::PARAMS expParams;
     SIMULATOR::KNOWLEDGE knowledge;
-    string problem, outputfile, policy;
+    string problem, outputfile, policy, furniture;
     int size, number, treeknowledge = 1, rolloutknowledge = 1, smarttreecount = 10;
     double smarttreevalue = 1.0;
-
+    bool causal = false;
     options_description desc("Allowed options");
     desc.add_options()
         ("help", "produce help message")
@@ -50,6 +51,8 @@ int main(int argc, char* argv[])
         ("policy", value<string>(&policy), "policy file (explicit POMDPs only)")
         ("size", value<int>(&size), "size of problem (problem specific)")
         ("number", value<int>(&number), "number of elements in problem (problem specific)")
+        ("furniture", value<string>(&furniture), "furniture name (problem specific)")
+        ("causal", value<bool>(&causal), "causal (problem specific)")
         ("timeout", value<double>(&expParams.TimeOut), "timeout (seconds)")
         ("mindoubles", value<int>(&expParams.MinDoubles), "minimum power of two simulations")
         ("maxdoubles", value<int>(&expParams.MaxDoubles), "maximum power of two simulations")
@@ -133,6 +136,12 @@ int main(int argc, char* argv[])
     {
         real = new FINDIT_IMPROVED(size, number);
         simulator = new FINDIT_IMPROVED(size, number);
+    }
+    else if (problem == "causal_furniture")
+    {
+        real = new CAUSAL_FURNITURE(furniture,number,causal);
+        simulator = new CAUSAL_FURNITURE(furniture, number, causal);
+        //simulator = new CAUSAL_FURNITURE("kerosene lamp", 6);
     }
     else 
     {

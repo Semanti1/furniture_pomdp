@@ -122,6 +122,8 @@ public:
         assert(index >= 0 && index < XSize * YSize);
         return COORD(index % XSize, index / XSize);
     }
+
+    
     
 private:
 

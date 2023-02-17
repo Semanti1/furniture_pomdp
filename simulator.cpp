@@ -40,7 +40,10 @@ SIMULATOR::~SIMULATOR()
 void SIMULATOR::Validate(const STATE& state) const 
 { 
 }
+STATE* SIMULATOR::CreateStartStateReal(int i) const
+{
 
+}
 bool SIMULATOR::LocalMove(STATE& state, const HISTORY& history,
     int stepObs, const STATUS& status) const
 {

@@ -73,6 +73,7 @@ public:
 
     // Create start start state (can be stochastic)
     virtual STATE* CreateStartState() const = 0;
+    virtual STATE* CreateStartStateReal(int i) const;
 
     // Free memory for state
     virtual void FreeState(STATE* state) const = 0;
