@@ -163,13 +163,14 @@ STATE* CAUSAL_FURNITURE::CreateStartState() const
                 std::pair<std::string, std::string> connection(obj1name, obj2name);
                 if (isCausal(connection))
                 {
-                    if ((connection.first == "burner" && connection.second == "fuel tank") || (connection.first == "fuel tank" && connection.second == "burner"))
+                    obj.legit = Random(2);
+                    /*if ((connection.first == "burner" && connection.second == "fuel tank") || (connection.first == "fuel tank" && connection.second == "burner"))
                     {
                         obj.legit = 1;
                     }
                     else {
                         obj.legit = Random(2);
-                    }
+                    }*/
                 }
                 else {
                     obj.legit = 0;
