@@ -16,7 +16,7 @@ CAUSAL_FURNITURE::CAUSAL_FURNITURE(std::string name="kerosene_lamp", int numpart
     NumObservations = 2;
     //RewardRange = 100;// NumActions / 4.0;
     //Discount = 0.95;
-    names = { "outlet","cord", "lightbulb", "base", "shade","pull chain"};
+    names = { "wall plug","backplate", "lightbulb", "lamp body"};
     cout << "numparts" << numParts << endl;
     //numPorts = { 2, 1, 3,1,2,1 };
     //found = {};
@@ -486,7 +486,7 @@ bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) c
 
 bool CAUSAL_FURNITURE::isCausal(std::pair<std::string, std::string> connection) const
 {
-    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("wall plug", "backplate"),std::make_pair("lightbulb", "backplate"), std::make_pair("lightbulb","lamp body") };
+    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("wall plug", "backplate"),std::make_pair("wall plug", "lightbulb"), std::make_pair("backplate","lightbulb"), std::make_pair("lightbulb","lamp body") };
     auto it3 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.first) && (obj.second == connection.second)); });
     auto it4 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.second) && (obj.second == connection.first)); });
     
