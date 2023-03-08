@@ -16,7 +16,7 @@ CAUSAL_FURNITURE::CAUSAL_FURNITURE(std::string name="kerosene_lamp", int numpart
     NumObservations = 2;
     //RewardRange = 100;// NumActions / 4.0;
     //Discount = 0.95;
-    names = { "fuel x","kerosene", "burner", "chimney", "wick", "lighter" };
+    names = { "fuel tank","kerosene", "burner", "chimney", "wick", "lighter" };
     cout << "numparts" << numParts << endl;
     //numPorts = { 2, 1, 3,1,2,1 };
     //found = {};
