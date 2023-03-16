@@ -486,7 +486,7 @@ bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) c
 
 bool CAUSAL_FURNITURE::isCausal(std::pair<std::string, std::string> connection) const
 {
-    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("cord", "lightbulb"), std::make_pair("pull chain", "cord"),std::make_pair("pull chain", "lightbulb"),std::make_pair("lightbulb", "shade"),std::make_pair("lightbulb", "outlet"),std::make_pair("pull chain", "shade"),std::make_pair("pull chain", "outlet"),std::make_pair("outlet", "shade")};
+    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("cord", "lightbulb"), std::make_pair("outlet", "lightbulb"),std::make_pair("pull chain", "lightbulb"),std::make_pair("cord", "outlet"),std::make_pair("cord", "pull chain"),std::make_pair("outlet", "pull chain"),std::make_pair("light bulb", "shade"),std::make_pair("light bulb", "base"),std::make_pair("shade", "base")};
     auto it3 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.first) && (obj.second == connection.second)); });
     auto it4 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.second) && (obj.second == connection.first)); });
     
