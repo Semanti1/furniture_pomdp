@@ -16,7 +16,7 @@ CAUSAL_FURNITURE::CAUSAL_FURNITURE(std::string name="kerosene_lamp", int numpart
     NumObservations = 2;
     //RewardRange = 100;// NumActions / 4.0;
     //Discount = 0.95;
-    names = { "case","switch", "batteries", "lb", "lens"};
+    names = { "wp","bp", "lb", "lightbulb"};
     cout << "numparts" << numParts << endl;
     //numPorts = { 2, 1, 3,1,2,1 };
     //found = {};
@@ -475,7 +475,7 @@ else
 }
 bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) const
 {
-    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("case", "switch"),std::make_pair("case", "batteries"), std::make_pair("lb","batteries"), std::make_pair("lb","lens")};
+    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("wp", "bp"),std::make_pair("lightbulb", "bp"), std::make_pair("lightbulb","lp")};
     auto it3 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.first) && (obj.second == connection.second)); });
     auto it4 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.second) && (obj.second == connection.first)); });
     if ((validconnections.end() == it3) && (validconnections.end() == it4))
@@ -486,7 +486,7 @@ bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) c
 
 bool CAUSAL_FURNITURE::isCausal(std::pair<std::string, std::string> connection) const
 {
-    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("case", "batteries"),std::make_pair("case", "switch"),std::make_pair("switch", "batteries"),std::make_pair("switch", "lb"),std::make_pair("lb", "lens")},std::make_pair("switch", "lens");
+    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("bp", "wp"),std::make_pair("bp", "lightbulb"),std::make_pair("wp", "lightbulb"),std::make_pair("lightbulb", "lb");
     auto it3 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.first) && (obj.second == connection.second)); });
     auto it4 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.second) && (obj.second == connection.first)); });
     
