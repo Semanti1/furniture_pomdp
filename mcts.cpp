@@ -11,8 +11,8 @@ using namespace UTILS;
 
 MCTS::PARAMS::PARAMS()
 :   Verbose(0),
-    //MaxDepth(100),
-    MaxDepth(2),
+    MaxDepth(100),
+   // MaxDepth(2),
     NumSimulations(1000),
     NumStartStates(1000),
     UseTransforms(true),
@@ -36,7 +36,7 @@ MCTS::MCTS(const SIMULATOR& simulator, const PARAMS& params)
     QNODE::NumChildren = Simulator.GetNumObservations();
 
     Root = ExpandNode(Simulator.CreateStartState());
-
+    cout << "start " << "in mcts" << endl;
     for (int i = 0; i < Params.NumStartStates; i++)
         Root->Beliefs().AddSample(Simulator.CreateStartState());
 }
@@ -144,6 +144,7 @@ void MCTS::UCTSearch()
 {
     ClearStatistics();
     int historyDepth = History.Size();
+    cout << "maxdepth " << Params.MaxDepth << endl;
     //cout << "Starting simulations " << Root->Beliefs().GetNumSamples() << endl;
     for (int n = 0; n < Params.NumSimulations; n++)
     {
@@ -179,6 +180,7 @@ double MCTS::SimulateV(STATE& state, VNODE* vnode)
     int action = GreedyUCB(vnode, true);
 
     PeakTreeDepth = TreeDepth;
+    //cout << "maxdepth sim V " << Params.MaxDepth << endl;
     if (TreeDepth >= Params.MaxDepth) // search horizon reached
         return 0;
 
@@ -328,6 +330,7 @@ double MCTS::Rollout(STATE& state)
     bool terminal = false;
     int numSteps;
     //cout << "in rollout " << endl;
+    
     for (numSteps = 0; numSteps + TreeDepth < Params.MaxDepth && !terminal; ++numSteps)
     {
         int observation;

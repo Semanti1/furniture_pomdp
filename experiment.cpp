@@ -179,6 +179,7 @@ void EXPERIMENT::DiscountedReturn()
     OutputFile << "Simulations\tRuns\tUndiscounted return\tUndiscounted error\tDiscounted return\tDiscounted error\tTime\n";
 
     SearchParams.MaxDepth =  Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
+    cout << "maxdepth in discount " << SearchParams.MaxDepth << endl;
     ExpParams.SimSteps = Simulator.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
     ExpParams.NumSteps = Real.GetHorizon(ExpParams.Accuracy, ExpParams.UndiscountedHorizon);
 
