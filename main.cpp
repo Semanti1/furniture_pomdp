@@ -9,7 +9,9 @@
 #include "findit_improved.h"
 #include "experiment.h"
 #include <boost/program_options.hpp>
-
+#include <iostream>
+#include <fstream>
+#include <sstream>
 using namespace std;
 using namespace boost::program_options;
 
@@ -39,6 +41,8 @@ int main(int argc, char* argv[])
     EXPERIMENT::PARAMS expParams;
     SIMULATOR::KNOWLEDGE knowledge;
     string problem, outputfile, policy, furniture;
+    //std::vector<std::pair<std::string, std::string>> causalconnections{};
+    string causalfilename = "";
     int size, number, treeknowledge = 1, rolloutknowledge = 1, smarttreecount = 10;
     double smarttreevalue = 1.0;
     bool causal = false;
@@ -53,6 +57,7 @@ int main(int argc, char* argv[])
         ("number", value<int>(&number), "number of elements in problem (problem specific)")
         ("furniture", value<string>(&furniture), "furniture name (problem specific)")
         ("causal", value<bool>(&causal), "causal (problem specific)")
+        ("causalfilename", value<string>(&causalfilename), "causal connections file name (problem specific)")
         ("timeout", value<double>(&expParams.TimeOut), "timeout (seconds)")
         ("mindoubles", value<int>(&expParams.MinDoubles), "minimum power of two simulations")
         ("maxdoubles", value<int>(&expParams.MaxDoubles), "maximum power of two simulations")
@@ -139,8 +144,75 @@ int main(int argc, char* argv[])
     }
     else if (problem == "causal_furniture")
     {
-        real = new CAUSAL_FURNITURE(furniture,number,causal);
-        simulator = new CAUSAL_FURNITURE(furniture, number, causal);
+        //cout << "numparts" << numParts << endl;
+        std::vector<std::vector<std::pair<std::string, std::string>>> allusers;
+        std::vector<std::pair<std::string, std::string>> allpairs;
+        string line,pair,conn;
+        std::pair<std::string, std::string> connection;
+        std::vector<std::string> parts;
+        cout << "args" << number << " " << causalfilename << endl;
+        ifstream file;
+        file.open(causalfilename);
+        cout << file.is_open() << endl;
+        while (getline(file, line))
+        {
+            cout << "hello" << line << endl;
+            allpairs.clear();
+            if (line[line.size() - 1] == '\r')
+                line.erase(line.size() - 1);
+            istringstream str(line);
+            while (getline(str, pair, '|'))
+            {
+                cout << "pair" << pair << endl;
+                
+                istringstream substr(pair);
+                parts.clear();
+                while (getline(substr, conn, ','))
+                {
+                    cout << conn << endl;
+                    parts.push_back(conn);
+
+                }
+                    cout << "parts " << parts.size() << endl;
+                    allpairs.push_back(make_pair(parts[0], parts[1]));
+                
+            }
+            allusers.push_back(allpairs);
+            cout << "all pairs " << allpairs.size() << endl;
+        }
+        //real = new CAUSAL_FURNITURE(furniture, number, causal, allusers[0]);
+        //simulator = new CAUSAL_FURNITURE(furniture, number, causal, allusers[0]);
+        cout << "all " << allusers.size() << endl;
+        string outputfname;
+        //std::vector<std::vector<std::pair<std::string, std::string>>> allusers2 = allusers;
+       for (int i = 0; i < allusers.size(); i++)
+        {
+            cout << "user " << i + 1 << endl;
+            outputfname = outputfile;
+            real = new CAUSAL_FURNITURE(furniture, number, causal, allusers[i]);
+            simulator = new CAUSAL_FURNITURE(furniture, number, causal, allusers[i]);
+            simulator->SetKnowledge(knowledge);
+            /*if (i == 0)
+            {
+                EXPERIMENT experiment(*real, *simulator, outputfile, expParams, searchParams);
+            }
+            else
+            {*/
+                //EXPERIMENT* experiment = new EXPERIMENT(*real, *simulator, outputfile, expParams, searchParams);
+            //}
+            outputfname = outputfname + "user_" + to_string((i + 1)) + ".txt";
+            cout << outputfname << endl;
+            EXPERIMENT experiment(*real, *simulator, outputfname, expParams, searchParams);
+            experiment.DiscountedReturn();
+            delete real;
+            delete simulator;
+            //delete experiment;
+            SIMULATOR* real = 0;
+            SIMULATOR* simulator = 0;
+        }
+        
+        return 0;
+
         //simulator = new CAUSAL_FURNITURE("kerosene lamp", 6);
     }
     else 

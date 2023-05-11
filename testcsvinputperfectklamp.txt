@@ -1,0 +1,2 @@
+kerosene tank,burner|burner,wick|lighter,wick|chimney,burner
+kerosene tank,burner|burner,lighter|lighter,wick|chimney,burner

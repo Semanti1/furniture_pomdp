@@ -30,7 +30,7 @@ class CAUSAL_FURNITURE : public SIMULATOR
 {
 public:
 
-    CAUSAL_FURNITURE(std::string name, int numparts, bool causal);
+    CAUSAL_FURNITURE(std::string name, int numparts, bool causal, std::vector<std::pair<std::string, std::string>> allpairs);
 
     virtual STATE* Copy(const STATE& state) const;
     virtual void Validate(const STATE& state) const;
@@ -51,6 +51,7 @@ public:
     virtual void DisplayState(const STATE& state, std::ostream& ostr) const;
     /*virtual void DisplayObservation(const STATE& state, int observation, std::ostream& ostr) const;*/
     virtual void DisplayAction(int action, std::ostream& ostr) const;
+    std::vector<std::pair<std::string, std::string>> allpairs;
     //std::vector<std::pair<std::string, std::string>> found;
 private:
 
@@ -65,11 +66,13 @@ private:
     int XSize, YSize;
     int MaxLength, TotalRemaining;*/
     //STATE* CreateStartStateReal() const;
+    //std::vector<std::pair<std::string, std::string>> allpairs ;
     bool isValid(std::pair<std::string, std::string> connection) const;
     bool isCausal(std::pair<std::string, std::string> connection) const;
     std::string furniture_name;
     int numParts;
     bool causal;
+    //string causalfilename;
     std::vector<std::string> names;
     std::vector<int> numPorts;
     mutable MEMORY_POOL<CAUSAL_FURNITURE_STATE> MemoryPool;
