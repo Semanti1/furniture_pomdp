@@ -1,7 +1,14 @@
 #include "utils.h"
-
+//std::mt19937 mt(time(nullptr));
 namespace UTILS
 {
+    
+
+    /*int Random(int max)
+    {
+        //return rand() % max;
+        return uniform_int_distribution<int>(0, max)(mt);
+    }*/
 
 void UnitTest()
 {

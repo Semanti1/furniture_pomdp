@@ -69,7 +69,7 @@ void EXPERIMENT::Run()
         int action = mcts.SelectAction();
         std::chrono::high_resolution_clock::time_point t2b = std::chrono::high_resolution_clock::now();
         std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2b - t2);
-        cout << "Time in this step: " << time_span.count() << endl;
+        //cout << "Time in this step: " << time_span.count() << endl;
        
         //cout << "action " << endl;
         Real.DisplayAction(action, cout);
@@ -163,6 +163,8 @@ void EXPERIMENT::MultiRun()
     {
         cout << "Starting run " << n + 1 << " with "
             << SearchParams.NumSimulations << " simulations... " << endl;
+        //cout << "time seed " << time(NULL) << endl;
+        
         Run();
         if (Results.Time.GetTotal() > ExpParams.TimeOut)
         {

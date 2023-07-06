@@ -112,6 +112,8 @@ void MCTS::RolloutSearch()
 	assert(BeliefState().GetNumSamples() > 0);
 	Simulator.GenerateLegal(*BeliefState().GetSample(0), GetHistory(), legal, GetStatus());
 	random_shuffle(legal.begin(), legal.end());
+    //shuffle(legal.begin(), legal.end(),UTILS::mt);
+
 
 	for (int i = 0; i < Params.NumSimulations; i++)
 	{

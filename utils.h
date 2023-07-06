@@ -8,19 +8,23 @@
 #include "coord.h"
 #include "memorypool.h"
 #include <algorithm>
-
+#include <random>
 #define LargeInteger 1000000
 #define Infinity 1e+10
 #define Tiny 1e-10
+using namespace std;
 
+//extern std::mt19937 mt;
 #ifdef DEBUG
 #define safe_cast dynamic_cast
 #else
 #define safe_cast static_cast
 #endif
-
 namespace UTILS
 {
+    
+    
+
 
 inline int Sign(int x)
 {
@@ -28,10 +32,14 @@ inline int Sign(int x)
 }
 
 inline int Random(int max)
-{
-    return rand() % max;
-}
 
+{
+    //srand(rand());
+    return rand() % max;
+    //return (rand() % max + rand()%max)/2;
+  //  return uniform_int_distribution<int>(0, max)(mt);
+}
+//int Random(int max);
 inline int Random(int min, int max)
 {
     return rand() % (max - min) + min;

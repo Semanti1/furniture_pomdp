@@ -11,6 +11,7 @@
 #include <boost/program_options.hpp>
 #include <iostream>
 #include <fstream>
+#include <random>
 #include <sstream>
 using namespace std;
 using namespace boost::program_options;
@@ -37,10 +38,13 @@ void disableBufferedIO(void)
 
 int main(int argc, char* argv[])
 {
+    //UTILS::mt(time(nullptr));
+   
     MCTS::PARAMS searchParams;
     EXPERIMENT::PARAMS expParams;
     SIMULATOR::KNOWLEDGE knowledge;
     string problem, outputfile, policy, furniture;
+    
     //std::vector<std::pair<std::string, std::string>> causalconnections{};
     string causalfilename = "";
     int size, number, treeknowledge = 1, rolloutknowledge = 1, smarttreecount = 10;
@@ -147,13 +151,15 @@ int main(int argc, char* argv[])
         //cout << "numparts" << numParts << endl;
         std::vector<std::vector<std::pair<std::string, std::string>>> allusers;
         std::vector<std::pair<std::string, std::string>> allpairs;
-        string line,pair,conn;
+        string line, pair, conn;
         std::pair<std::string, std::string> connection;
         std::vector<std::string> parts;
         cout << "args" << number << " " << causalfilename << endl;
         ifstream file;
         file.open(causalfilename);
         cout << file.is_open() << endl;
+        //vector<int> seeds{ 17137, 26103, 11742, 18272, 1110, 6285, 22505, 1031, 4415, 19261, 3606, 9529, 2561, 30592, 28988, 30929, 29960, 25304, 6771, 431, 4074, 29305, 14792, 16926, 9287, 13699, 1478, 16277, 28209, 1337, 12803, 23492, 11032, 8689, 31787, 1612, 19482, 1844, 9552, 2669, 29555, 29993, 28114, 15, 27712, 18628, 12313, 11631, 24290, 13783, 10119, 1306, 9832, 1046, 14089, 16067, 19431, 17534, 9495, 28029, 3428, 16539, 15269, 20793, 10835, 27814, 17032, 9504, 23970, 12042, 15639, 1679, 10991, 7255, 24345, 4039, 243, 1372, 14922, 1214, 23854, 21408, 5848, 5271, 4791, 9537, 13681, 10061, 9987, 19328, 16376, 21757, 461, 18182, 29236, 20949, 17862, 30210, 30284, 4059 };
+        vector<int> seeds{ 30869, 715, 22791, 6221, 2760, 21579, 7500, 1067, 12820, 24094, 9764, 13159, 9991, 3885, 13252, 6713, 12016, 7676, 14546, 16480, 269, 11274, 22807, 16252, 31569, 26503, 17273, 16536, 26314, 15836, 10656, 19596, 15553, 25182, 7740, 16873, 16536, 19794, 4979, 29537, 2178, 9948, 14951, 14178, 28938, 7862, 22368, 14825, 10066, 18902, 19654, 15042, 24903, 16359, 10416, 30262, 7183, 15237, 13713, 26794, 20, 23158, 18352, 22806, 6629, 20365, 2033, 27250, 16993, 22197, 1876, 3082, 23648, 16567, 6461, 20024, 7897, 8597, 3303, 23648, 505, 8147, 21529, 22001, 5006, 2189, 11476, 7796, 25387, 3718, 1741, 696, 1979, 15247, 22040, 13307, 31881, 8642, 14535, 28469, 23877, 18852, 17253};
         while (getline(file, line))
         {
             cout << "hello" << line << endl;
@@ -184,10 +190,13 @@ int main(int argc, char* argv[])
         //simulator = new CAUSAL_FURNITURE(furniture, number, causal, allusers[0]);
         cout << "all " << allusers.size() << endl;
         string outputfname;
+        
         //std::vector<std::vector<std::pair<std::string, std::string>>> allusers2 = allusers;
        for (int i = 0; i < allusers.size(); i++)
         {
             cout << "user " << i + 1 << endl;
+            //srand(time(NULL)+rand());
+            srand(seeds[i]);
             outputfname = outputfile;
             real = new CAUSAL_FURNITURE(furniture, number, causal, allusers[i]);
             simulator = new CAUSAL_FURNITURE(furniture, number, causal, allusers[i]);

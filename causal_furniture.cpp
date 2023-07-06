@@ -19,9 +19,9 @@ CAUSAL_FURNITURE::CAUSAL_FURNITURE(std::string name = "kerosene_lamp", int numpa
     NumObservations = 2;
     //RewardRange = 100;// NumActions / 4.0;
     //Discount = 0.95;
-    names = { "kerosene tank","burner", "chimney", "wick", "lighter" };
-    //names = { "case","batteries", "switch", "lens", "lightbulb"};
-    //names = { "cord","outlet", "base", "lightbulb", "pull chain", "shade"};
+    names = { "kerosenetank","burner", "chimney", "wick", "lighter" };
+    //names = { "batteries", "switchandcircuit", "lens", "lightbulb"};
+   // names = { "cord","outlet", "base", "lightbulb", "pullchain", "shade"};
     cout << "numparts" << numParts << endl;
     cout << "all pair size" << allpairs.size() << endl;
     /*std::vector<std::vector<std::pair<std::string, std::string>>> allusers;
@@ -501,9 +501,9 @@ else
 }
 bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) const
 {
-    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("kerosene tank", "burner"), std::make_pair("burner","wick"), std::make_pair("lighter","wick"),std::make_pair("chimney","burner") };
-    //std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("case", "switch"),std::make_pair("case", "batteries"), std::make_pair("lightbulb","batteries"), std::make_pair("lightbulb","lens") };
-    //std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("outlet", "cord"),std::make_pair("cord", "lightbulb"), std::make_pair("base","lightbulb"), std::make_pair("pull chain","shade"), std::make_pair("shade","lightbulb") };
+    std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("kerosenetank", "burner"), std::make_pair("burner","wick"), std::make_pair("lighter","wick"),std::make_pair("chimney","burner") };
+    //std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("batteries", "switchandcircuit"),std::make_pair("batteries", "lightbulb"), std::make_pair("switchandcircuit","lightbulb"), std::make_pair("lens","lightbulb") };
+    //std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("outlet", "cord"),std::make_pair("cord", "lightbulb"), std::make_pair("base","lightbulb"), std::make_pair("pullchain","lightbulb"), std::make_pair("shade","lightbulb") };
     auto it3 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.first) && (obj.second == connection.second)); });
     auto it4 = std::find_if(validconnections.begin(), validconnections.end(), [&](std::pair<std::string, std::string> obj) { return ((obj.first == connection.second) && (obj.second == connection.first)); });
     if ((validconnections.end() == it3) && (validconnections.end() == it4))
